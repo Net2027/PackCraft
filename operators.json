@@ -4,7 +4,8 @@
     "username": "Mine.ir",
     "password_hash": "scrypt:32768:8:1$8gXTw7zcfmiXFGu2$4e1c088c642b83abf997d94edd1dc8e0edfaefaffa58577b99cd549b66f92ad2851b044fde6a311e337b674ee0c2e5e0b6dcd206ea98597bfd7af3f65b0a1b3b",
     "active": true,
-    "created_at": "2026-07-31T10:05:50Z"
+    "created_at": "2026-07-31T10:05:50Z",
+    "name": "پرهام"
   },
   {
     "id": "91542a5cdb624cd390e71c9861f39890",
