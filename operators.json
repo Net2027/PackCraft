@@ -20,6 +20,7 @@
     "username": "2020",
     "password_hash": "scrypt:32768:8:1$YCTUrXvJMdAjsXqD$6cc4358e9dcadb1731c5c8dec0d643e927a79d92eb3d453f6af7eabbe511a65254705a0805d64a27f22ee5a48034544379524ccd87690b4afab9a169cf8f4170",
     "active": false,
-    "created_at": "2026-08-05T07:59:13Z"
+    "created_at": "2026-08-05T07:59:13Z",
+    "name": "داریوش"
   }
 ]
