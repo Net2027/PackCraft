@@ -94,26 +94,36 @@
             --text-gradient: linear-gradient(135deg, #e2ecff 0%, #8fb9ff 45%, #4d86f7 100%);
 
             /* شیشه غلیظ‌تر شد تا شفق و شبکه‌ی متحرکِ پشت، متن رو کدر نکنن */
-            --glass-bg: rgba(9, 14, 26, 0.76);
-            --glass-sheen: linear-gradient(158deg, rgba(125, 178, 255, 0.075) 0%, rgba(125, 178, 255, 0.018) 45%, rgba(3, 5, 12, 0.12) 100%);
-            --glass-border: rgba(120, 165, 255, 0.20);
-            --glass-inset: rgba(255, 255, 255, 0.07);
-            --glass-shadow: 0 18px 46px -12px rgba(0, 0, 0, 0.72), 0 2px 10px rgba(0, 0, 0, 0.35);
+            --glass-bg: rgba(8, 12, 24, 0.72);
+            --glass-sheen: linear-gradient(158deg, rgba(125, 178, 255, 0.085) 0%, rgba(125, 178, 255, 0.028) 45%, rgba(3, 5, 12, 0.10) 100%);
+            --glass-border: rgba(120, 165, 255, 0.24);
+            --glass-inset: rgba(255, 255, 255, 0.08);
+            --glass-shadow: 0 18px 46px -18px rgba(0, 0, 0, 0.78), 0 10px 30px rgba(77, 134, 247, 0.16), inset 0 1px 0 rgba(255, 255, 255, 0.06);
 
             --font-family: 'Vazir', sans-serif;
             --font-display: 'Noto Serif Arabic', 'Vazir', serif;
-            --transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            --transition: all 0.28s cubic-bezier(0.22, 1, 0.36, 1);
+            --transition-slow: 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+            --radius-xl: 24px;
+            --radius-lg: 20px;
+            --shadow-soft: 0 18px 42px rgba(0, 0, 0, 0.28);
+            --shadow-strong: 0 24px 60px rgba(0, 0, 0, 0.36);
+            --hero-glow: rgba(77, 134, 247, 0.22);
 
             /* رنگ‌های نور چرخان دور لبه‌ها (هم‌خانواده با آبی اصلی تم) */
             --spin-none: rgba(77, 134, 247, 0);
             --spin-mid: rgba(77, 134, 247, 0.45);
             --spin-glow: #9cc3ff;
             --spin-core: #ffffff;
-            --spin-speed: 6s;
-            --spin-width: 1.6px;
+            --spin-speed: 7.2s;
+            --spin-width: 1.2px;
         }
 
         /* متنِ روشن روی زمینه‌ی تیره بدون این دو خط «چاق» و مه‌آلود رندر می‌شه */
+        html {
+            scroll-behavior: smooth;
+        }
+
         html[data-theme="dark"] body {
             -webkit-font-smoothing: antialiased;
             -moz-osx-font-smoothing: grayscale;
@@ -257,13 +267,24 @@
         body {
             font-family: var(--font-family);
             color: var(--text-main);
-            /* رنگ پشتیبان: اگر لایه‌های بکگراند رندر نشدن، صفحه سفید نمی‌مونه */
             background: var(--bg-dark);
             min-height: 100vh;
             display: flex;
             flex-direction: column;
             overflow-x: hidden;
             position: relative;
+            text-rendering: optimizeLegibility;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        img, video {
+            display: block;
+            max-width: 100%;
+        }
+
+        a, button, input, textarea {
+            -webkit-tap-highlight-color: transparent;
         }
 
         /* ===== لایه‌های بکگراند گیمینگ (کاملاً CSS، بدون تصویر) ===== */
@@ -272,6 +293,7 @@
         .fixed-bg {
             position: fixed;
             inset: 0;
+            contain: paint;
             background:
                 radial-gradient(ellipse 80% 60% at 50% -10%, rgba(77, 134, 247, 0.26) 0%, transparent 66%),
                 radial-gradient(ellipse 60% 50% at 85% 105%, rgba(52, 211, 153, 0.14) 0%, transparent 64%),
@@ -287,6 +309,7 @@
         .bg-grid {
             position: fixed;
             inset: -50% -50%;
+            contain: paint;
             width: 200%;
             height: 200%;
             background-image:
@@ -296,7 +319,8 @@
             z-index: -5;
             pointer-events: none;
             transform: translate3d(0, 0, 0);
-            animation: grid-drift 24s linear infinite;
+            animation: grid-drift 32s linear infinite;
+            will-change: transform;
             mask-image: radial-gradient(ellipse 65% 55% at 50% 40%, #000 0%, transparent 100%);
             -webkit-mask-image: radial-gradient(ellipse 65% 55% at 50% 40%, #000 0%, transparent 100%);
         }
@@ -311,6 +335,7 @@
             position: fixed;
             inset: 0;
             z-index: -4;
+            contain: paint;
             pointer-events: none;
             overflow: hidden;
         }
@@ -324,7 +349,7 @@
             background: linear-gradient(135deg, rgba(77, 134, 247, 0.16), rgba(77, 134, 247, 0.03));
             box-shadow: inset 0 0 12px rgba(77, 134, 247, 0.18);
             border-radius: 4px;
-            animation: voxel-float 18s ease-in-out infinite;
+            animation: voxel-float 22s ease-in-out infinite;
             will-change: transform, opacity;
         }
 
@@ -353,11 +378,11 @@
             position: fixed;
             inset: 0;
             z-index: -3;
+            contain: paint;
             pointer-events: none;
             overflow: hidden;
-            filter: blur(70px);
-            /* شفق زیباست ولی وقتی از پشتِ کارت‌ها رد می‌شه متن رو کدر می‌کنه */
-            opacity: 0.8;
+            filter: blur(56px);
+            opacity: 0.74;
         }
 
         .bg-aurora span {
@@ -399,6 +424,7 @@
         .bg-scanlines {
             position: fixed;
             inset: 0;
+            contain: paint;
             z-index: -2;
             pointer-events: none;
             background: repeating-linear-gradient(
@@ -416,6 +442,7 @@
             position: fixed;
             inset: 0;
             z-index: -2;
+            contain: paint;
             pointer-events: none;
             overflow: hidden;
         }
@@ -427,7 +454,7 @@
             height: 3px;
             background: #9cc3ff;
             box-shadow: 0 0 8px 1px rgba(120, 165, 255, 0.9);
-            animation: pixel-blink 4.5s ease-in-out infinite;
+            animation: pixel-blink 5.2s ease-in-out infinite;
         }
 
         .bg-pixel span:nth-child(1) { top: 18%; left: 24%; animation-delay: 0s;    }
@@ -445,6 +472,7 @@
         .bg-glow {
             position: fixed;
             top: 20%;
+            contain: paint;
             left: 50%;
             transform: translate3d(-50%, -50%, 0);
             width: 60vw;
@@ -681,12 +709,12 @@
 
         .animate-up {
             opacity: 0;
-            animation: fadeUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+            animation: fadeUp 0.55s cubic-bezier(0.16, 1, 0.3, 1) forwards;
         }
         
-        .delay-1 { animation-delay: 0.2s; } 
-        .delay-2 { animation-delay: 0.4s; } 
-        .delay-3 { animation-delay: 0.6s; } 
+        .delay-1 { animation-delay: 0.08s; } 
+        .delay-2 { animation-delay: 0.16s; } 
+        .delay-3 { animation-delay: 0.24s; } 
 
         /* لایه بندی کامپوننت‌های شیشه‌ای برای جدا ماندن از ریکالکولت انیمیشن Grid */
         header, .card, footer, .coming-soon-wrapper, .guide-wrapper {
@@ -694,8 +722,8 @@
             /* براقیِ مورب: با background-image روی خودِ عنصر، نه pseudo-element،
                چون ::after این عنصرها در قاعده‌های پایین‌ترِ فایل رزرو شده */
             background-image: var(--glass-sheen);
-            backdrop-filter: blur(22px) saturate(135%);
-            -webkit-backdrop-filter: blur(22px) saturate(135%);
+            backdrop-filter: blur(16px) saturate(140%);
+            -webkit-backdrop-filter: blur(16px) saturate(140%);
             border: 1px solid var(--glass-border);
             /* خط نوریِ داخلیِ لبه‌ی بالا — چیزی که شیشه رو «ضخیم» نشون می‌ده نه تخت */
             box-shadow: var(--glass-shadow), inset 0 1px 0 var(--glass-inset);
@@ -1110,21 +1138,22 @@
         }
 
         .card {
-            border-radius: 24px;
+            border-radius: var(--radius-xl);
             padding: clamp(24px, 3.5vw, 40px);
             display: flex;
             align-items: flex-start;
             gap: clamp(16px, 2.5vw, 25px);
-            transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.4s, border-color 0.4s;
+            transition: transform var(--transition-slow), box-shadow var(--transition-slow), border-color var(--transition-slow), background var(--transition-slow);
             position: relative;
             text-decoration: none;
             color: inherit;
+            box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
         }
 
         .card:hover {
-            transform: translate3d(0, -10px, 0);
+            transform: translate3d(0, -8px, 0);
             border-color: rgba(120, 165, 255, 0.42);
-            box-shadow: 0 26px 52px -14px rgba(0, 0, 0, 0.78), 0 0 26px rgba(77, 134, 247, 0.20), inset 0 1px 0 rgba(255, 255, 255, 0.10);
+            box-shadow: 0 22px 48px -16px rgba(0, 0, 0, 0.72), 0 0 24px rgba(77, 134, 247, 0.16), inset 0 1px 0 rgba(255, 255, 255, 0.10);
         }
 
         /* رویکرد جدید: ترنسلیت فیزیکی یک دایو به جای محاسبه مداوم گرادیانت */
@@ -2565,15 +2594,15 @@
                 if (progress >= 100) {
                     setTimeout(() => {
                         loaderWrapper.classList.add('loader-hidden');
-                    }, 550);
+                    }, 320);
                 } else {
-                    const nextTick = Math.floor(Math.random() * 90) + 60;
+                    const nextTick = Math.floor(Math.random() * 70) + 40;
                     setTimeout(simulateLoading, nextTick);
                 }
             }
 
             updateStatus();
-            setTimeout(simulateLoading, 350);
+            setTimeout(simulateLoading, 180);
         });
 
         // ===== تغییر حالت روشن / تاریک =====
@@ -3200,9 +3229,9 @@
         // رندرینگ ۱۰۰٪ مبتنی بر GPU (حذف کامل Paint Trigger ها)
         function wireCardGlow(card) {
             let rect;
+            let frame = null;
             const glow = card.querySelector('.card-glow');
 
-            // ذخیره ابعاد صرفا هنگام ورود به کارت
             card.addEventListener('mouseenter', () => {
                 rect = card.getBoundingClientRect();
             });
@@ -3210,11 +3239,13 @@
             card.addEventListener('mousemove', e => {
                 if (!rect || !glow) return;
 
-                // واگذاری جابجایی پیکسل‌ها به لایه کامپوزیت گرافیک توسط translate3d
-                window.requestAnimationFrame(() => {
+                if (frame) return;
+
+                frame = window.requestAnimationFrame(() => {
                     const x = e.clientX - rect.left;
                     const y = e.clientY - rect.top;
                     glow.style.transform = `translate3d(${x}px, ${y}px, 0)`;
+                    frame = null;
                 });
             });
         }
