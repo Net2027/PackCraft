@@ -22,5 +22,13 @@
     "active": false,
     "created_at": "2026-08-05T07:59:13Z",
     "name": "داریوش"
+  },
+  {
+    "id": "d29daf5cc00f437db98a98cf8278a341",
+    "username": "test",
+    "name": "تستی",
+    "password_hash": "scrypt:32768:8:1$5TIiiipyeVuWscNo$acd7e5d8cf66348ae739a0afaa25d02b0c1e182d4ea0d115b566b48999a0ab1877b57b995026cec1b8ba60a82ff1ad75112d395313f8b4ffad89270983168327",
+    "active": true,
+    "created_at": "2026-08-10T16:42:52Z"
   }
 ]
