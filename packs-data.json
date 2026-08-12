@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T08:23:59Z",
+  "updatedAt": "2026-08-12T13:15:20Z",
   "packs": [
     {
       "name": "4sangre",
@@ -833,6 +833,15 @@
     }
   ],
   "shaders": [
+    {
+      "name": "Lunac shaders - 3D v1.0",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Lunac%20shaders%20-%203D%20v1.0/File/Lunac%20shaders%20-%203D%20v1.0(1)%20(1).mcpack",
+      "description": "نسخه 1.12به بالا",
+      "compatibility": "سازگار با بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Lunac%20shaders%20-%203D%20v1.0/photo_2026-08-12_16-42-42.jpg",
+      "tested": true,
+      "featured": false
+    },
     {
       "name": "Mystica Shaders v2.7.0",
       "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Mystica%20Shaders%20v2.7.0/File/Mystica%20Shaders%20v2.7.0.mcpack",
