@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T18:32:45Z",
+  "updatedAt": "2026-08-12T18:48:19Z",
   "packs": [
     {
       "name": "4sangre",
@@ -947,6 +947,14 @@
       "description": "تست مپ وان بلاک در اقیانوس",
       "link": "https://www.aparat.com/v/tuyy5nu",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Film/مپ خفن و جذاب وان بلاک در اقیانوس/Screenshot%20(408).png",
+      "tested": true,
+      "featured": false
+    },
+    {
+      "name": "مپ خفن و جذاب پارکور ماری",
+      "description": "تست و معرفی مود پارکور ماری",
+      "link": "https://aparat.com/v/dyahp7e",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Film/مپ خفن و جذاب پارکور ماری/IMG_20260709_225520_068.jpg",
       "tested": true,
       "featured": false
     }
