@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T13:28:40Z",
+  "updatedAt": "2026-08-12T13:30:06Z",
   "packs": [
     {
       "name": "4sangre",
@@ -387,6 +387,15 @@
       "description": "نسخه 1.12به بالا",
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/خونه های زیبا و قابل ساخت در کرفتینگ/photo_2026-08-12_16-55-17.jpg",
+      "tested": true,
+      "featured": false
+    },
+    {
+      "name": "درخت ها میوه میدن",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/درخت ها میوه میدن/File/✦_Tree_fruit_⟦v1⟧_BH_▸⟦ACHIEVEMENT_FRIENDLY⟧.mcaddon",
+      "description": "نسخه 1.12به بالا",
+      "compatibility": "سازگار با بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/درخت ها میوه میدن/photo_2026-08-12_16-59-21.jpg",
       "tested": true,
       "featured": false
     },
