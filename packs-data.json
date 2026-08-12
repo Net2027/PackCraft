@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T13:30:59Z",
+  "updatedAt": "2026-08-12T18:32:45Z",
   "packs": [
     {
       "name": "4sangre",
@@ -226,6 +226,15 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/آیرون من/photo_2026-07-21_14-23-46.jpg",
       "tested": false,
+      "featured": false
+    },
+    {
+      "name": "اسلندرمن",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/اسلندرمن/File/Slenderman%20The%20Eight%20Notes%20Addon%20EL%20SANDO.mcaddon",
+      "description": "نسخه 1.12به بالا",
+      "compatibility": "سازگار با بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/اسلندرمن/photo_2026-08-12_17-02-10.jpg",
+      "tested": true,
       "featured": false
     },
     {
