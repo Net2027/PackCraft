@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T06:32:37Z",
+  "updatedAt": "2026-08-12T06:38:46Z",
   "packs": [
     {
       "name": "4sangre",
@@ -774,6 +774,15 @@
       "description": "نسخه 1.12به بالا",
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/پراید اسپورت/photo_2026-08-06_22-36-32.jpg",
+      "tested": true,
+      "featured": false
+    },
+    {
+      "name": "پرندگان جدید و باکیفیت",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/پرندگان جدید و باکیفیت/File/Avian%20Showdown%201.1%20BETA(2).mcaddon",
+      "description": "نسخه 1.12به بالا",
+      "compatibility": "سازگار با بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/پرندگان جدید و باکیفیت/photo_2026-08-12_10-06-04.jpg",
       "tested": true,
       "featured": false
     },
