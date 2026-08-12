@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T13:26:21Z",
+  "updatedAt": "2026-08-12T13:28:40Z",
   "packs": [
     {
       "name": "4sangre",
@@ -875,6 +875,15 @@
       "description": "نسخه 1.12به بالا",
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Mystica%20Shaders%20v2.7.0/photo_2026-07-23_08-49-20.jpg",
+      "tested": true,
+      "featured": false
+    },
+    {
+      "name": "Newb Aero Enhanced-1.0.0-android",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Newb%20Aero%20Enhanced-1.0.0-android/File/Newb%20Aero%20Enhanced-1.0.0-android.mcpack",
+      "description": "نسخه 1.12به بالا",
+      "compatibility": "سازگار با بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Newb%20Aero%20Enhanced-1.0.0-android/photo_2026-08-12_16-56-53.jpg",
       "tested": true,
       "featured": false
     },
