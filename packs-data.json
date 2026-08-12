@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T13:23:59Z",
+  "updatedAt": "2026-08-12T13:26:21Z",
   "packs": [
     {
       "name": "4sangre",
@@ -379,6 +379,15 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/جت پک/photo_2026-07-21_14-10-16.jpg",
       "tested": false,
+      "featured": false
+    },
+    {
+      "name": "خونه های زیبا و قابل ساخت در کرفتینگ",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/خونه های زیبا و قابل ساخت در کرفتینگ/File/Craftable%20Builds.mcaddon",
+      "description": "نسخه 1.12به بالا",
+      "compatibility": "سازگار با بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/خونه های زیبا و قابل ساخت در کرفتینگ/photo_2026-08-12_16-55-17.jpg",
+      "tested": true,
       "featured": false
     },
     {
