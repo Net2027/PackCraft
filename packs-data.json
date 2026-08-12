@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T13:16:36Z",
+  "updatedAt": "2026-08-12T13:23:59Z",
   "packs": [
     {
       "name": "4sangre",
@@ -280,6 +280,15 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/انواع وسیله نقلیه/photo_2026-07-21_13-56-35.jpg",
       "tested": false,
+      "featured": false
+    },
+    {
+      "name": "انواع پل",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/انواع پل/File/BRIDGES%20(addon).mcaddon",
+      "description": "نسخه 1.12به بالا",
+      "compatibility": "سازگار با بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/انواع پل/photo_2026-08-12_16-53-04.jpg",
+      "tested": true,
       "featured": false
     },
     {
