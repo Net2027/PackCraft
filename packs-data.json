@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T06:38:46Z",
+  "updatedAt": "2026-08-12T08:23:59Z",
   "packs": [
     {
       "name": "4sangre",
@@ -406,6 +406,15 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/ساخت ماشین/photo_2026-07-23_09-13-14.jpg",
       "tested": true,
+      "featured": false
+    },
+    {
+      "name": "فناف",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/فناف/File/FNAF.mcaddon",
+      "description": "بدراک ۱.۲۶.۳۰ به بالا",
+      "compatibility": "سازگار بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/فناف/IMG_20260812_113721_550.jpg",
+      "tested": false,
       "featured": false
     },
     {
