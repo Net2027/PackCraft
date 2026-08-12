@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T13:15:20Z",
+  "updatedAt": "2026-08-12T13:16:36Z",
   "packs": [
     {
       "name": "4sangre",
@@ -405,6 +405,15 @@
       "description": "نسخه 1.12به بالا",
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/ساخت ماشین/photo_2026-07-23_09-13-14.jpg",
+      "tested": true,
+      "featured": false
+    },
+    {
+      "name": "فارم های جدید",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/فارم های جدید/File/Tiny%20Farms%20Add-On%201.0%20(addon)(1).mcaddon",
+      "description": "نسخه 1.12به بالا",
+      "compatibility": "سازگار با بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/فارم های جدید/photo_2026-08-12_16-45-37.jpg",
       "tested": true,
       "featured": false
     },
