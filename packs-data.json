@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T13:30:06Z",
+  "updatedAt": "2026-08-12T13:30:59Z",
   "packs": [
     {
       "name": "4sangre",
@@ -598,11 +598,11 @@
       "featured": false
     },
     {
-      "name": "مود ترسناک ویریتی",
-      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/مود ترسناک ویریتی/File/Verityy.mcaddon",
+      "name": "مود ترسناک وریتی",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/مود ترسناک وریتی/File/Verityy.mcaddon",
       "description": "بدراک 1.20به بالا",
       "compatibility": "سازگار بدراک",
-      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/مود ترسناک ویریتی/hq720.jpg",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/مود ترسناک وریتی/hq720.jpg",
       "tested": true,
       "featured": false
     },
