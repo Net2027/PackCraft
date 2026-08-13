@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T01:57:49Z",
+  "updatedAt": "2026-08-13T02:01:12Z",
   "packs": [
     {
       "name": "4sangre",
@@ -940,7 +940,7 @@
       "link": "https://www.aparat.com/v/erq1o0t",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Film/معرفی و تست مود پارکور 1000 ماموریت/photo_2026-07-23_09-15-54.jpg",
       "tested": true,
-      "featured": false
+      "featured": true
     },
     {
       "name": "مپ خفن و جذاب وان بلاک در اقیانوس",
