@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T02:21:26Z",
+  "updatedAt": "2026-08-13T11:21:18Z",
   "packs": [
     {
       "name": "4sangre",
@@ -814,6 +814,15 @@
       "featured": false
     },
     {
+      "name": "واقعی شدن ضربه زدن",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/واقعی شدن ضربه زدن/File/Epic%20Kill%20Animations%20by%20skupka.mcaddon",
+      "description": "نسخه 1.12به بالا",
+      "compatibility": "سازگار با بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/واقعی شدن ضربه زدن/photo_2026-08-13_05-50-52.jpg",
+      "tested": true,
+      "featured": false
+    },
+    {
       "name": "وان بلاک هاردکور",
       "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/وان بلاک هاردکور/File/Hardcore-One-Block-Map-26x.mcworld",
       "description": "بدراک 1.20 به بالا",
@@ -979,6 +988,14 @@
     }
   ],
   "films": [
+    {
+      "name": "تست و معرفی مود مپ خفن و جذاب وان بلاک",
+      "description": "تست و معرفی مود وان بلاک",
+      "link": "https://aparat.com/v/mdt95c5",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Film/تست و معرفی مود مپ خفن و جذاب وان بلاک/IMG_20260720_152011_850%20(1).jpg",
+      "tested": true,
+      "featured": false
+    },
     {
       "name": "معرفی و تست مود پارکور 1000 ماموریت",
       "description": "تست مود پارکور 1000 ماموریت",
