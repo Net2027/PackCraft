@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T02:15:09Z",
+  "updatedAt": "2026-08-13T02:16:51Z",
   "packs": [
     {
       "name": "4sangre",
@@ -361,6 +361,15 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/تفنگ لیزری/photo_2026-07-21_14-03-47.jpg",
       "tested": false,
+      "featured": false
+    },
+    {
+      "name": "توتم های قابل ساخت",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/توتم های قابل ساخت/File/Craftable_Totems_V0.3_BP.mcaddon",
+      "description": "نسخه 1.12به بالا",
+      "compatibility": "سازگار با بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/توتم های قابل ساخت/photo_2026-08-13_05-45-56.jpg",
+      "tested": true,
       "featured": false
     },
     {
