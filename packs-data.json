@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T18:04:57Z",
+  "updatedAt": "2026-08-13T18:35:50Z",
   "packs": [
     {
       "name": "4sangre",
@@ -477,6 +477,15 @@
       "description": "نسخه 1.12به بالا",
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/سپر های لجندی و بسیار قدرتمند/photo_2026-08-13_21-33-06.jpg",
+      "tested": true,
+      "featured": false
+    },
+    {
+      "name": "سگ جاودانه",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/سگ جاودانه/File/Immortal_Dogs_V1.1.mcaddon",
+      "description": "نسخه 1.12به بالا",
+      "compatibility": "سازگار بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/سگ جاودانه/photo_2026-08-13_22-04-44.jpg",
       "tested": true,
       "featured": false
     },
