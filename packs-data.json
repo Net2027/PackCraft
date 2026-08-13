@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T02:18:10Z",
+  "updatedAt": "2026-08-13T02:19:45Z",
   "packs": [
     {
       "name": "4sangre",
@@ -505,6 +505,15 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/لوازم خانگی/photo_2026-07-21_13-55-12.jpg",
       "tested": false,
+      "featured": false
+    },
+    {
+      "name": "ماب فارم ها",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/ماب فارم ها/File/Mob%20Farm%20in%20a%20Block%20Add-On%20(Add-on).mcaddon",
+      "description": "نسخه 1.12به بالا",
+      "compatibility": "سازگار بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/ماب فارم ها/photo_2026-08-13_05-48-22.jpg",
+      "tested": true,
       "featured": false
     },
     {
