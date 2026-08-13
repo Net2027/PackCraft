@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T17:22:01Z",
+  "updatedAt": "2026-08-13T18:04:57Z",
   "packs": [
     {
       "name": "4sangre",
@@ -470,6 +470,15 @@
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/سروایوال در حباب (bio dame)/photo_2026-08-02_02-27-18.jpg",
       "tested": true,
       "featured": true
+    },
+    {
+      "name": "سپر های لجندی و بسیار قدرتمند",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/سپر های لجندی و بسیار قدرتمند/File/TITANS%20OF%20EXTINCTION%2010%20LEGENDARY%20SHIELDS%20WITH%20POWERS.mcaddon",
+      "description": "نسخه 1.12به بالا",
+      "compatibility": "سازگار بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/سپر های لجندی و بسیار قدرتمند/photo_2026-08-13_21-33-06.jpg",
+      "tested": true,
+      "featured": false
     },
     {
       "name": "سیب های جدید",
