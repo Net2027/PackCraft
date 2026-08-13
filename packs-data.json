@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T12:23:23Z",
+  "updatedAt": "2026-08-13T12:30:06Z",
   "packs": [
     {
       "name": "4sangre",
@@ -461,6 +461,15 @@
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/ساخت ماشین/photo_2026-07-23_09-13-14.jpg",
       "tested": true,
       "featured": false
+    },
+    {
+      "name": "سروایوال در حباب (bio dame)",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/سروایوال در حباب (bio dame)/File/Bio%20Dome%20(world_template).mctemplate",
+      "description": "بدراک 1.20  به بالا",
+      "compatibility": "سازگار بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/سروایوال در حباب (bio dame)/photo_2026-08-02_02-27-18.jpg",
+      "tested": true,
+      "featured": true
     },
     {
       "name": "سیب های جدید",
