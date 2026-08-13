@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T02:19:45Z",
+  "updatedAt": "2026-08-13T02:21:26Z",
   "packs": [
     {
       "name": "4sangre",
@@ -487,6 +487,15 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/فناف/IMG_20260812_113721_550.jpg",
       "tested": false,
+      "featured": false
+    },
+    {
+      "name": "قطار های جدید",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/قطار های جدید/File/Realistic%20Trains%20Add-On%20(addon)(1).mcaddon",
+      "description": "نسخه 1.12به بالا",
+      "compatibility": "سازگار با بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/قطار های جدید/photo_2026-08-13_05-49-51.jpg",
+      "tested": true,
       "featured": false
     },
     {
