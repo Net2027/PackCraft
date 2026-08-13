@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T12:30:06Z",
+  "updatedAt": "2026-08-13T17:22:01Z",
   "packs": [
     {
       "name": "4sangre",
@@ -997,6 +997,14 @@
     }
   ],
   "films": [
+    {
+      "name": "تست و معرفی مود آزمایشگاه ترکیب ماب",
+      "description": "تست و معرفی مود آزمایشگاه ترکیب ماب",
+      "link": "https://aparat.com/v/iscr693",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Film/تست و معرفی مود آزمایشگاه ترکیب ماب/photo_2026-01-31_21-21-08.jpg",
+      "tested": true,
+      "featured": false
+    },
     {
       "name": "تست و معرفی مود مپ خفن و جذاب وان بلاک",
       "description": "تست و معرفی مود وان بلاک",
