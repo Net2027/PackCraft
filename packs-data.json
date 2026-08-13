@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T02:01:12Z",
+  "updatedAt": "2026-08-13T02:15:09Z",
   "packs": [
     {
       "name": "4sangre",
@@ -234,6 +234,15 @@
       "description": "نسخه 1.12به بالا",
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/اسلندرمن/photo_2026-08-12_17-02-10.jpg",
+      "tested": true,
+      "featured": false
+    },
+    {
+      "name": "اسکای بلاک ماب های جهش یافته",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/اسکای بلاک ماب های جهش یافته/File/Skyblock%20Mutants%20%5B_%5D%20(world_template).mctemplate",
+      "description": "نسخه 1.12به بالا",
+      "compatibility": "سازگار با بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/اسکای بلاک ماب های جهش یافته/photo_2026-08-13_05-41-30.jpg",
       "tested": true,
       "featured": false
     },
