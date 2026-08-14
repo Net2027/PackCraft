@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T00:23:34Z",
+  "updatedAt": "2026-08-14T06:21:38Z",
   "packs": [
     {
       "name": "4sangre",
@@ -326,6 +326,15 @@
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/اکشن اند استاف نسخه 1.11 (جدید ترین نسخه )/70890379-6537-l__2672.jpg",
       "tested": true,
       "featured": true
+    },
+    {
+      "name": "بلاک جادویی",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/بلاک جادویی/File/Magic%20Block%20Add-On%20by%20skupka.mcaddon",
+      "description": "نسخه 1.12به بالا",
+      "compatibility": "سازگار بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/بلاک جادویی/photo_2026-08-14_09-50-25.jpg",
+      "tested": true,
+      "featured": false
     },
     {
       "name": "بوگاتی ویرون",
