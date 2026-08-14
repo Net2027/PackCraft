@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T06:21:38Z",
+  "updatedAt": "2026-08-14T06:25:03Z",
   "packs": [
     {
       "name": "4sangre",
@@ -882,6 +882,15 @@
       "description": "نسخه 1.12به بالا",
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/وسایل بامبویی/photo_2026-07-23_09-03-23.jpg",
+      "tested": true,
+      "featured": false
+    },
+    {
+      "name": "وسایل های نظامی جدید",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/وسایل های نظامی جدید/File/Zombie%20Military%20Outpost%20(world_template).mctemplate",
+      "description": "نسخه 1.12به بالا",
+      "compatibility": "سازگار بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/وسایل های نظامی جدید/photo_2026-08-14_09-51-43.jpg",
       "tested": true,
       "featured": false
     },
