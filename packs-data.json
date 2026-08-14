@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T06:38:59Z",
+  "updatedAt": "2026-08-14T07:36:17Z",
   "packs": [
     {
       "name": "4sangre",
@@ -226,6 +226,15 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/آیرون من/photo_2026-07-21_14-23-46.jpg",
       "tested": false,
+      "featured": false
+    },
+    {
+      "name": "استراکچر های جدید",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/استراکچر های جدید/File/More%20Structures%20Add-On.mcaddon",
+      "description": "نسخه 1.12به بالا",
+      "compatibility": "سازگار با بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/استراکچر های جدید/photo_2026-08-14_10-09-20.jpg",
+      "tested": true,
       "featured": false
     },
     {
