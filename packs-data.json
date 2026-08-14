@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T06:31:52Z",
+  "updatedAt": "2026-08-14T06:38:59Z",
   "packs": [
     {
       "name": "4sangre",
@@ -909,6 +909,15 @@
       "description": "نسخه 1.12به بالا",
       "compatibility": "سازگار با بدراک",
       "icon": null,
+      "tested": true,
+      "featured": false
+    },
+    {
+      "name": "ویلیج های جدید",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/ویلیج های جدید/File/Village%20In%20a%20Hole%20(world_template).mctemplate",
+      "description": "نسخه 1.12به بالا",
+      "compatibility": "سازگار با بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/ویلیج های جدید/photo_2026-08-14_10-02-44.jpg",
       "tested": true,
       "featured": false
     },
