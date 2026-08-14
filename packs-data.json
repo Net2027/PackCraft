@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T07:36:17Z",
+  "updatedAt": "2026-08-14T07:38:01Z",
   "packs": [
     {
       "name": "4sangre",
@@ -414,6 +414,15 @@
       "description": "نسخه 1.12به بالا",
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/تکسچرپک جدید و بسیار خفن برای  بدوارز و پی وی پی/photo_2026-07-23_09-16-09.jpg",
+      "tested": true,
+      "featured": false
+    },
+    {
+      "name": "تی ان تی های جدید",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/تی ان تی های جدید/File/TNT%20Add-On.mcaddon",
+      "description": "نسخه 1.12به بالا",
+      "compatibility": "سازگار بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/تی ان تی های جدید/photo_2026-08-14_11-05-57.jpg",
       "tested": true,
       "featured": false
     },
