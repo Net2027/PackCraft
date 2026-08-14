@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T06:25:03Z",
+  "updatedAt": "2026-08-14T06:31:52Z",
   "packs": [
     {
       "name": "4sangre",
@@ -1010,6 +1010,15 @@
       "description": "نسخه 1.12به بالا",
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Realism%20VFX%20Add-On%20by%20DLMC/photo_2026-08-06_23-00-48.jpg",
+      "tested": true,
+      "featured": false
+    },
+    {
+      "name": "Wild-Expansion-Addon-121x (1)",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Wild-Expansion-Addon-121x%20(1)/File/Wild-Expansion-Addon-121x%20(1).mcaddon",
+      "description": "نسخه 1.12به بالا",
+      "compatibility": "سازگار با بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Wild-Expansion-Addon-121x%20(1)/photo_2026-08-14_09-56-36.jpg",
       "tested": true,
       "featured": false
     },
