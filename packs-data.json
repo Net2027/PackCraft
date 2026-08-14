@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T07:40:02Z",
+  "updatedAt": "2026-08-14T07:45:23Z",
   "packs": [
     {
       "name": "4sangre",
@@ -1046,6 +1046,15 @@
       "description": "نسخه 1.12به بالا",
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Realism%20VFX%20Add-On%20by%20DLMC/photo_2026-08-06_23-00-48.jpg",
+      "tested": true,
+      "featured": false
+    },
+    {
+      "name": "Vibrant BSL Visuals",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Vibrant%20BSL%20Visuals/File/Vibrant%20BSL%20Visuals%20(1).mcpack",
+      "description": "نسخه 1.12به بالا",
+      "compatibility": "سازگار با بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Vibrant%20BSL%20Visuals/photo_2026-08-14_11-10-10.jpg",
       "tested": true,
       "featured": false
     },
