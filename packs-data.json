@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T07:38:01Z",
+  "updatedAt": "2026-08-14T07:40:02Z",
   "packs": [
     {
       "name": "4sangre",
@@ -1028,6 +1028,15 @@
       "description": "نسخه 1.12به بالا",
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Newb%20Aero%20Enhanced-1.0.0-android/photo_2026-08-12_16-56-53.jpg",
+      "tested": true,
+      "featured": false
+    },
+    {
+      "name": "Newb-Lumina-Shader-26x",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Newb-Lumina-Shader-26x/File/Newb-Lumina-Shader-26x(1).mcpack",
+      "description": "نسخه 1.12به بالا",
+      "compatibility": "سازگار با بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Newb-Lumina-Shader-26x/photo_2026-08-14_11-08-35.jpg",
       "tested": true,
       "featured": false
     },
