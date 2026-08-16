@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T19:15:53Z",
+  "updatedAt": "2026-08-16T19:23:15Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -1208,6 +1208,15 @@
       "description": "نسخه 1.12به بالا",
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Vibrant%20BSL%20Visuals/photo_2026-08-14_11-10-10.jpg",
+      "tested": true,
+      "featured": false
+    },
+    {
+      "name": "Visual Effects Add-On by skupka",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Visual%20Effects%20Add-On%20by%20skupka/File/Visual%20Effects%20Add-On%20by%20skupka.mcaddon",
+      "description": "نسخه 1.12به بالا",
+      "compatibility": "سازگار با بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Visual%20Effects%20Add-On%20by%20skupka/photo_2026-08-16_22-46-41.jpg",
       "tested": true,
       "featured": false
     },
