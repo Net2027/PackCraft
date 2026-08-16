@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T07:05:57Z",
+  "updatedAt": "2026-08-16T07:32:31Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -187,6 +187,15 @@
       "bedrock": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Pack/Venom/Bedrock/Venom16x.rar",
       "description": "سازگار با نسخه 1.21 به بالا",
       "icon": null,
+      "tested": false,
+      "featured": false
+    },
+    {
+      "name": "Waish",
+      "java": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Pack/Waish/Java/!     §4Waish §c[10k]  §8[§f32x§8] (1).zip",
+      "bedrock": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Pack/Waish/Bedrock/Waish%2010k%20%5BBedrock%5D.mcpack",
+      "description": null,
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Pack/Waish/packtl%20copy.jpg.jpg",
       "tested": false,
       "featured": false
     },
