@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T19:39:36Z",
+  "updatedAt": "2026-08-16T21:14:29Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -1118,6 +1118,15 @@
       "description": "نسخه 1.12به بالا",
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Kellys_RTX_Base_pack_3.6/photo_2026-08-16_22-55-13.jpg",
+      "tested": true,
+      "featured": false
+    },
+    {
+      "name": "Luminous Dreams v1.0",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Luminous%20Dreams%20v1.0/File/Luminous%20Dreams%20v1.0%20By%20ZZITJAVA.mcpack",
+      "description": "نسخه 1.12به بالا",
+      "compatibility": "سازگار با بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Luminous%20Dreams%20v1.0/photo_2026-08-16_23-10-14.jpg",
       "tested": true,
       "featured": false
     },
