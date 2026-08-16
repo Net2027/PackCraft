@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T17:39:25Z",
+  "updatedAt": "2026-08-16T17:43:14Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -1200,6 +1200,15 @@
       "compatibility": "سازگار با بدراک",
       "icon": null,
       "tested": false,
+      "featured": false
+    },
+    {
+      "name": "شیدر باکیفیت",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/شیدر باکیفیت/File/580_40474478022967.mcpack",
+      "description": "نسخه 1.12به بالا",
+      "compatibility": "سازگار با بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/شیدر باکیفیت/photo_2026-08-16_21-11-02.jpg",
+      "tested": true,
       "featured": false
     },
     {
