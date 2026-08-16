@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T19:31:40Z",
+  "updatedAt": "2026-08-16T19:32:48Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -1199,6 +1199,15 @@
       "description": "نسخه 1.12به بالا",
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Phantom-Visuals-v1.1.4/photo_2026-08-16_22-45-02.jpg",
+      "tested": true,
+      "featured": false
+    },
+    {
+      "name": "RTX Shader",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/RTX%20Shader/File/RTX%20Shader.mcpack",
+      "description": "نسخه 1.12به بالا",
+      "compatibility": "سازگار با بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/RTX%20Shader/photo_2026-08-16_23-02-12.jpg",
       "tested": true,
       "featured": false
     },
