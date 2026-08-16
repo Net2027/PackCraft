@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T17:24:33Z",
+  "updatedAt": "2026-08-16T17:31:41Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -1136,6 +1136,15 @@
       "description": "نسخه 1.12به بالا",
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Newb-X-Supervanilla-MCPE-1.21/photo_2026-08-16_20-45-59.jpg",
+      "tested": true,
+      "featured": false
+    },
+    {
+      "name": "Newb_Complementary_Update_",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Newb_Complementary_Update_/File/Newb_Complementary_Update_v1_4__1_21_80_25.mcpack",
+      "description": "نسخه 1.12به بالا",
+      "compatibility": "سازگار با بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Newb_Complementary_Update_/photo_2026-08-16_20-55-34.jpg",
       "tested": true,
       "featured": false
     },
