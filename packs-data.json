@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T19:32:48Z",
+  "updatedAt": "2026-08-16T19:36:37Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -1217,6 +1217,15 @@
       "description": "نسخه 1.12به بالا",
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Realism%20VFX%20Add-On%20by%20DLMC/photo_2026-08-06_23-00-48.jpg",
+      "tested": true,
+      "featured": false
+    },
+    {
+      "name": "Ultra Cute Texture Pack",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Ultra%20Cute%20Texture%20Pack/File/Ultra%20Cute%20Texture%20Pack.mcpack",
+      "description": "نسخه 1.12به بالا",
+      "compatibility": "سازگار با بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Ultra%20Cute%20Texture%20Pack/photo_2026-08-16_23-03-25.jpg",
       "tested": true,
       "featured": false
     },
