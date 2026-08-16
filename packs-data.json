@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T06:48:19Z",
+  "updatedAt": "2026-08-16T07:05:57Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -143,6 +143,15 @@
       "description": "سازگار با نسخه 1.21 به بالا",
       "icon": null,
       "tested": true,
+      "featured": false
+    },
+    {
+      "name": "Tangerine - SamStrix 5K Texture Pack",
+      "java": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Pack/Tangerine%20-%20SamStrix%205K%20Texture%20Pack/Java/l§6Tan§egerine §f16x.zip",
+      "bedrock": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Pack/Tangerine%20-%20SamStrix%205K%20Texture%20Pack/Bedrock/Tangerine%20-%20SamStrix%205K%20Texture%20Pack%20%5BBedrock%5D.mcpack",
+      "description": null,
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Pack/Tangerine%20-%20SamStrix%205K%20Texture%20Pack/2022-08-19_12.05.02.png.jpg",
+      "tested": false,
       "featured": false
     },
     {
