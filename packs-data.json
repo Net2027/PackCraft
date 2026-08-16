@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T06:18:06Z",
+  "updatedAt": "2026-08-16T06:29:57Z",
   "packs": [
     {
       "name": "0§KII §5§lPurple §5Night §0§KII",
@@ -71,6 +71,15 @@
       "description": "سازگار با نسخه 1.21 به بالا",
       "icon": null,
       "tested": true,
+      "featured": false
+    },
+    {
+      "name": "POLAR WIND",
+      "java": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Pack/POLAR%20WIND/Java/!     §f§lPolar§b§lWind §8.zip",
+      "bedrock": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Pack/POLAR%20WIND/Bedrock/POLAR%20WIND%20-%20MR%20STRONG%20P%2010K%20%5BBedrock%5D.mcpack",
+      "description": null,
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Pack/POLAR%20WIND/banner.jpg",
+      "tested": false,
       "featured": false
     },
     {
