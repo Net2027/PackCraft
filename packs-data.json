@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T05:58:03Z",
+  "updatedAt": "2026-08-16T06:10:40Z",
   "packs": [
     {
       "name": "4sangre",
@@ -160,6 +160,15 @@
       "bedrock": null,
       "description": "ریسور پک بدوارز دویر   1.8.9",
       "icon": null,
+      "tested": false,
+      "featured": false
+    },
+    {
+      "name": "ریسورس پک 133",
+      "java": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Pack/ریسورس پک 133/Java/§§Rey§§pack§§133.zip",
+      "bedrock": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Pack/ریسورس پک 133/Bedrock/§§Rey§§pack§§133.mcpack",
+      "description": null,
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Pack/ریسورس پک 133/IMG_20260806_170642_387.jpg",
       "tested": false,
       "featured": false
     }
