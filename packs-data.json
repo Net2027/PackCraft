@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T06:40:23Z",
+  "updatedAt": "2026-08-16T06:48:19Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -7,6 +7,15 @@
       "bedrock": null,
       "description": null,
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Pack/!          §2§l§oToxin §f§l§o16x/banner%20(9).jpg",
+      "tested": false,
+      "featured": false
+    },
+    {
+      "name": "!          §5§l§oWheezy §6§l§o16x §5§l§o[NORMAL SWORDS]",
+      "java": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Pack/!          §5§l§oWheezy §6§l§o16x §5§l§o[NORMAL SWORDS]/Java/!          §5§l§oWheezy §6§l§o16x §5§l§o[NORMAL SWORDS].zip",
+      "bedrock": null,
+      "description": null,
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Pack/!          §5§l§oWheezy §6§l§o16x §5§l§o[NORMAL SWORDS]/banner%20(7).jpg",
       "tested": false,
       "featured": false
     },
