@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T17:43:14Z",
+  "updatedAt": "2026-08-16T17:45:31Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -1118,6 +1118,15 @@
       "description": "نسخه 1.12به بالا",
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Newb-Lumina-Shader-26x/photo_2026-08-14_11-08-35.jpg",
+      "tested": true,
+      "featured": false
+    },
+    {
+      "name": "Newb-X-Memories-Shader-MCPE-Android-1.21",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Newb-X-Memories-Shader-MCPE-Android-1.21/File/Newb-X-Memories-Shader-MCPE-Android-1.21.mcpack",
+      "description": "نسخه 1.12به بالا",
+      "compatibility": "سازگار با بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Newb-X-Memories-Shader-MCPE-Android-1.21/photo_2026-08-16_21-13-23.jpg",
       "tested": true,
       "featured": false
     },
