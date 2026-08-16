@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T10:40:59Z",
+  "updatedAt": "2026-08-16T17:15:31Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -1136,6 +1136,15 @@
       "description": "نسخه 1.12به بالا",
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Wild-Expansion-Addon-121x%20(1)/photo_2026-08-14_09-56-36.jpg",
+      "tested": true,
+      "featured": false
+    },
+    {
+      "name": "newb-x-shadow",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/newb-x-shadow/File/newb-x-shadow.mcpack",
+      "description": "نسخه 1.12به بالا",
+      "compatibility": "سازگار با بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/newb-x-shadow/photo_2026-08-16_20-43-36.jpg",
       "tested": true,
       "featured": false
     },
