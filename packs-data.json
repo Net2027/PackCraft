@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T00:24:22Z",
+  "updatedAt": "2026-08-16T05:21:45Z",
   "packs": [
     {
       "name": "4sangre",
@@ -135,6 +135,15 @@
       "icon": null,
       "tested": false,
       "featured": false
+    },
+    {
+      "name": "zion 8x V2",
+      "java": null,
+      "bedrock": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Pack/zion%208x%20V2/Bedrock/Zion%208x%20V2.mcpack",
+      "description": "بدراک 1.21 به بالا",
+      "icon": null,
+      "tested": true,
+      "featured": true
     },
     {
       "name": "استرلا",
