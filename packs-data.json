@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T17:31:41Z",
+  "updatedAt": "2026-08-16T17:39:25Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -1181,6 +1181,15 @@
       "description": "نسخه 1.12به بالا",
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/newb-x-shadow/photo_2026-08-16_20-43-36.jpg",
+      "tested": true,
+      "featured": false
+    },
+    {
+      "name": "v1.1.4.2 BP",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/v1.1.4.2%20BP/File/v1.1.4.2%20BP.mcpack",
+      "description": "نسخه 1.12به بالا",
+      "compatibility": "سازگار با بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/v1.1.4.2%20BP/photo_2026-08-16_21-08-16.jpg",
       "tested": true,
       "featured": false
     },
