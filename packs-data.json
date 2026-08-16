@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T17:48:42Z",
+  "updatedAt": "2026-08-16T19:15:53Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -1095,6 +1095,15 @@
       "featured": false
     },
     {
+      "name": "Forge Medieval Fantasy",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Forge%20Medieval%20Fantasy/File/Forge%20Medieval%20Fantasy%20(resources).mcpack",
+      "description": "نسخه 1.12به بالا",
+      "compatibility": "سازگار با بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Forge%20Medieval%20Fantasy/photo_2026-08-16_21-19-02.jpg",
+      "tested": true,
+      "featured": false
+    },
+    {
       "name": "Lunac shaders - 3D v1.0",
       "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Lunac%20shaders%20-%203D%20v1.0/File/Lunac%20shaders%20-%203D%20v1.0(1)%20(1).mcpack",
       "description": "نسخه 1.12به بالا",
@@ -1172,6 +1181,15 @@
       "description": "نسخه 1.12به بالا",
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Newb_Complementary_Update_/photo_2026-08-16_20-55-34.jpg",
+      "tested": true,
+      "featured": false
+    },
+    {
+      "name": "Phantom-Visuals-v1.1.4",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Phantom-Visuals-v1.1.4/File/Phantom-Visuals-v1.1.4.mcpack",
+      "description": "نسخه 1.12به بالا",
+      "compatibility": "سازگار با بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Phantom-Visuals-v1.1.4/photo_2026-08-16_22-45-02.jpg",
       "tested": true,
       "featured": false
     },
