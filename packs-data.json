@@ -1,6 +1,15 @@
 {
-  "updatedAt": "2026-08-16T06:12:39Z",
+  "updatedAt": "2026-08-16T06:18:06Z",
   "packs": [
+    {
+      "name": "0§KII §5§lPurple §5Night §0§KII",
+      "java": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Pack/0§KII §5§lPurple §5Night §0§KII/Java/0§KII §5§lPurple §5Night §0§KII [§d16§dx§8].zip",
+      "bedrock": null,
+      "description": null,
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Pack/0§KII §5§lPurple §5Night §0§KII/banner%20(10).jpg",
+      "tested": false,
+      "featured": false
+    },
     {
       "name": "4sangre",
       "java": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Pack/4sangre/Java/!        §4sangRe §8.zip",
