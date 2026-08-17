@@ -3,7 +3,7 @@
     "id": "91542a5cdb624cd390e71c9861f39890",
     "username": "phi2020",
     "password_hash": "scrypt:32768:8:1$sLiECVtB60MEy4e8$4d5f2c910007bae0eeab99c179e671ed590909178e7c439bc27de2186e34eabd413b7f50bf895587bd4c12efa7e1d4efec96e5bf83802265775ced4c7286e1ee",
-    "active": true,
+    "active": false,
     "created_at": "2026-07-31T12:28:25Z",
     "name": "کیانوش"
   },
