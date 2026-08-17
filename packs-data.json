@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T07:49:47Z",
+  "updatedAt": "2026-08-17T07:52:39Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -1208,6 +1208,15 @@
       "description": "نسخه 1.12به بالا",
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Newb%20Aero%20Enhanced-1.0.0-android/photo_2026-08-12_16-56-53.jpg",
+      "tested": true,
+      "featured": false
+    },
+    {
+      "name": "Newb X Mashi",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Newb%20X%20Mashi/File/Newb%20x%20Mashi%20v15.0%20(android).mcpack.zip",
+      "description": "نسخه 1.21.50 به بالا",
+      "compatibility": "سازگار با بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Newb%20X%20Mashi/photo_2026-08-17_11-21-21.jpg",
       "tested": true,
       "featured": false
     },
