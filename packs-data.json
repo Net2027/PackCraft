@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T05:07:00Z",
+  "updatedAt": "2026-08-17T05:12:32Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -955,6 +955,15 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/وان بلاک هاردکور/IMG_20260720_152011_850.jpg",
       "tested": false,
+      "featured": false
+    },
+    {
+      "name": "وریتی فارسی",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/وریتی فارسی/File/A%20Minecraft%20Movie%20BY%20MARKETPLACE%20TRADER(1).mcaddon",
+      "description": "نسخه 1.12به بالا",
+      "compatibility": "سازگار بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/وریتی فارسی/photo_2026-08-17_08-38-33.jpg",
+      "tested": true,
       "featured": false
     },
     {
