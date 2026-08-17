@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T05:21:51Z",
+  "updatedAt": "2026-08-17T05:23:49Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -1053,6 +1053,15 @@
       "description": "نسخه 1.12به بالا",
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/پرندگان جدید و باکیفیت/photo_2026-08-12_10-06-04.jpg",
+      "tested": true,
+      "featured": false
+    },
+    {
+      "name": "پهباد ها های جدید",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/پهباد ها های جدید/File/Waypoints%20BY%20MARKETPLACE%20TRADER.mcaddon",
+      "description": "نسخه 1.12به بالا",
+      "compatibility": "سازگار با بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/پهباد ها های جدید/photo_2026-08-17_08-52-48.jpg",
       "tested": true,
       "featured": false
     },
