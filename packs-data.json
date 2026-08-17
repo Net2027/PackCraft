@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T07:52:39Z",
+  "updatedAt": "2026-08-17T07:56:22Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -1208,6 +1208,15 @@
       "description": "نسخه 1.12به بالا",
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Newb%20Aero%20Enhanced-1.0.0-android/photo_2026-08-12_16-56-53.jpg",
+      "tested": true,
+      "featured": false
+    },
+    {
+      "name": "Newb X Ambient",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Newb%20X%20Ambient/File/Newb X Ambient - Android v1.21.20+.mcpack",
+      "description": "نسخه 1.21.50 به بالا",
+      "compatibility": "سازگار با بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Newb%20X%20Ambient/photo_2026-08-17_11-25-25.jpg",
       "tested": true,
       "featured": false
     },
