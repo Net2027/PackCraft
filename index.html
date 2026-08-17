@@ -8,13 +8,27 @@
     <!-- آیکون‌های Phosphor با ویژگی defer -->
     <script src="https://unpkg.com/@phosphor-icons/web" defer></script>
    
-	<!--یکتانت تبلیغات -->
+    <!-- تبلیغات -->
 	<script>
-	    window.addEventListener('load', function () {
-	        setTimeout(function () {
+	    (function () {
+	        function runYektanet() {
 	            !function(e,t,n){e.yektanetAnalyticsObject=n,e[n]=e[n]||function(){e[n].q.push(arguments)},e[n].q=e[n].q||[];var a=t.getElementsByTagName("head")[0],r=new Date,c="https://cdn.yektanet.com/superscript/OfKrnJbZ/native-no-data-47945/yn_pub.js?v="+r.getFullYear().toString()+"0"+r.getMonth()+"0"+r.getDate()+"0"+r.getHours(),s=t.createElement("link");s.rel="preload",s.as="script",s.href=c,a.appendChild(s);var l=t.createElement("script");l.async=!0,l.src=c,a.appendChild(l)}(window,document,"yektanet");
-	        }, 1000);
-	    });
+	        }
+
+	        function scheduleYektanet() {
+	            if ('requestIdleCallback' in window) {
+	                requestIdleCallback(runYektanet, { timeout: 2000 });
+	            } else {
+	                setTimeout(runYektanet, 1000);
+	            }
+	        }
+
+	        if (document.readyState === 'complete') {
+	            scheduleYektanet();
+	        } else {
+	            window.addEventListener('load', scheduleYektanet);
+	        }
+	    })();
 	</script>
 	
     <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
@@ -2353,9 +2367,6 @@
                 <input type="text" id="shaders-search" placeholder="جستجو بر اساس اسم...">
             </div>
             <div class="packs-grid" id="shaders-list" style="display:none;"></div>
-            
-            <div id="pos-article-display-122274"></div>
-            
         </div>
 
         <!-- تب ۶: فیلم ها -->
@@ -2384,6 +2395,8 @@
                         (کامپیوتر) و Bedrock (اندروید) را توضیح می‌دهیم.
                     </p>
                 </div>
+
+                <div id="pos-article-display-122298"></div>
 
                 <h3><i class="ph-fill ph-desktop-tower"></i> نصب مود در کامپیوتر (Minecraft Java Edition)</h3>
 
@@ -2428,6 +2441,8 @@
                     <li>بازی را اجرا کنید.</li>
                 </ol>
                 <p>اگر همه چیز درست باشد، مود در منوی Mods نمایش داده می‌شود.</p>
+
+                <div id="pos-article-display-122266"></div>
 
                 <h3><i class="ph-fill ph-device-mobile"></i> نصب مود در اندروید (Minecraft Bedrock)</h3>
                 <p>در نسخه موبایل، مودها معمولاً به شکل Addon نصب می‌شوند. فرمت فایل‌ها:
@@ -2497,7 +2512,8 @@
                     <p>حالا می‌توانید مودهای مورد علاقه خود را نصب کنید و تجربه ماینکرفت را شخصی‌سازی کنید! 🎮</p>
                     <p>پک کرفت — مرجع دانلود مود، شیدر و ریسورس پک ماینکرفت</p>
                 </div>
-				<div id="pos-article-display-122296"></div>				
+                <div id="pos-article-display-122296"></div>
+                <div id="pos-article-display-122274"></div>
             </div>
         </div>
 
