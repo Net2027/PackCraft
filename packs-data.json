@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T05:23:49Z",
+  "updatedAt": "2026-08-17T07:49:47Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -1100,6 +1100,15 @@
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/کوله پشتی/photo_2026-08-06_22-40-24.jpg",
       "tested": true,
       "featured": false
+    },
+    {
+      "name": "گودزیلا",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/گودزیلا/File/godzilla__minecraft_addon_v1_1.mcaddon",
+      "description": "نسخه 1.12به بالا",
+      "compatibility": "سازگار با بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/گودزیلا/photo_2026-08-17_08-54-27.jpg",
+      "tested": true,
+      "featured": false
     }
   ],
   "shaders": [
@@ -1199,6 +1208,15 @@
       "description": "نسخه 1.12به بالا",
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Newb%20Aero%20Enhanced-1.0.0-android/photo_2026-08-12_16-56-53.jpg",
+      "tested": true,
+      "featured": false
+    },
+    {
+      "name": "Newb X Stars",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Newb%20X%20Stars/File/Newb%20X%20Stars%20Complementary%20Reimagined%20-%20Android.mcpack.zip",
+      "description": "نسخه 1.21.100 به بالا",
+      "compatibility": "سازگار با بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Newb%20X%20Stars/photo_2026-08-17_11-16-51.jpg",
       "tested": true,
       "featured": false
     },
