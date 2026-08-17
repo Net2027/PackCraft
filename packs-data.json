@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T21:14:29Z",
+  "updatedAt": "2026-08-17T05:04:30Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -1082,6 +1082,15 @@
       "description": "نسخه 1.12به بالا",
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Chroma%20Visuals/photo_2026-08-16_20-50-18.jpg",
+      "tested": true,
+      "featured": false
+    },
+    {
+      "name": "Dexten-Shader-MCPE-1.19",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Dexten-Shader-MCPE-1.19/File/Dexten-Shader-MCPE-1.19(1).mcpack",
+      "description": "نسخه 1.12 به بالا",
+      "compatibility": "سازگار با بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Dexten-Shader-MCPE-1.19/photo_2026-08-16_23-12-43.jpg",
       "tested": true,
       "featured": false
     },
