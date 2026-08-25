@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T07:52:52Z",
+  "updatedAt": "2026-08-25T09:10:50Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -89,6 +89,15 @@
       "description": "سازگار با نسخه 1.21 به بالا",
       "icon": null,
       "tested": true,
+      "featured": false
+    },
+    {
+      "name": "Lyrian",
+      "java": null,
+      "bedrock": null,
+      "description": "بدراک 1.21 به بالا",
+      "icon": null,
+      "tested": false,
       "featured": false
     },
     {
