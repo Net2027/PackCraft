@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-28T19:03:34Z",
+  "updatedAt": "2026-08-28T19:05:33Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -797,8 +797,8 @@
     },
     {
       "name": "مود ترسناک وریتی",
-      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/مود ترسناک وریتی/File/Verityy.mcaddon",
-      "description": "بدراک 1.20به بالا",
+      "file": null,
+      "description": "دوستان این نسخه دچار مشکل شده و به رودی نسخه رسمی ویریتی در سایت آپلود میشه",
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/مود ترسناک وریتی/hq720.jpg",
       "tested": true,
