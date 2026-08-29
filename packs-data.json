@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T07:55:11Z",
+  "updatedAt": "2026-08-29T08:11:24Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -972,6 +972,15 @@
       "description": "بدراک 1.20 به بالا",
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/وان بلاک هاردکور/IMG_20260720_152011_850.jpg",
+      "tested": false,
+      "featured": false
+    },
+    {
+      "name": "وریتی (ورژن اصلی)",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/وریتی (ورژن اصلی)/File/verity.mcaddon",
+      "description": "بدراک 1.26.30 به بالا",
+      "compatibility": "سازگار بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/وریتی (ورژن اصلی)/Screenshot%20(423).png",
       "tested": false,
       "featured": false
     },
