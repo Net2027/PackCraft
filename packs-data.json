@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T08:11:24Z",
+  "updatedAt": "2026-08-29T08:16:34Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -798,10 +798,10 @@
     {
       "name": "مود ترسناک وریتی",
       "file": null,
-      "description": "دوستان این نسخه دچار مشکل شده و به زودی نسخه رسمی ویریتی در سایت آپلود میشه",
-      "compatibility": "سازگار بدراک",
+      "description": "دوستان این نسخه دچار مشکل شده و نسخه جدید این ماد در سایت آپلود شد",
+      "compatibility": "این نسخه نابود شد",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/مود ترسناک وریتی/hq720.jpg",
-      "tested": true,
+      "tested": false,
       "featured": false
     },
     {
