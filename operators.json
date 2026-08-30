@@ -22,5 +22,13 @@
     "password_hash": "scrypt:32768:8:1$236bwgDAiAnA9F46$6254dc41f2588bc4efd141b48b0ca35c127fca27870bfa308129db24f64498d6d6c1c71f8222e0c35ac6865c3e48e807bd14f41f79dbf6bf7ce48e0de45b9540",
     "active": true,
     "created_at": "2026-08-29T09:30:22Z"
+  },
+  {
+    "id": "2eb77746fa8843ae810c76e1c18f646c",
+    "username": "kakka",
+    "name": "کیانوش",
+    "password_hash": "scrypt:32768:8:1$KbRysOFvm3fbqcrH$0643bcb69ded0c7ee439da8036da52fb25f8e091c6283f707a7709edbad4f33a5a9aa036b98aa4721fa5a7727550d1fb647b5a0a64039e9be09268a715a2b8da",
+    "active": true,
+    "created_at": "2026-08-30T17:10:26Z"
   }
 ]
