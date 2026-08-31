@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T06:44:36Z",
+  "updatedAt": "2026-08-31T06:46:10Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -1226,6 +1226,15 @@
       "description": "نسخه 1.12به بالا",
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Lunac%20shaders%20-%203D%20v1.0/photo_2026-08-12_16-42-42.jpg",
+      "tested": true,
+      "featured": false
+    },
+    {
+      "name": "MakeUp",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/MakeUp/File/MakeUp-UltraFast-9.5b.zip",
+      "description": "شیدر خیلی خوب ولی نسبتا سنگین",
+      "compatibility": "تست شده با 26.2",
+      "icon": null,
       "tested": true,
       "featured": false
     },
