@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T07:12:31Z",
+  "updatedAt": "2026-08-31T07:21:07Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -63,6 +63,15 @@
       "icon": null,
       "tested": false,
       "featured": false
+    },
+    {
+      "name": "Danyplayz",
+      "java": null,
+      "bedrock": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Pack/Danyplayz/Bedrock/Danyplayz_11k.mcpack",
+      "description": "بدراک 1.21 به بالا",
+      "icon": null,
+      "tested": true,
+      "featured": true
     },
     {
       "name": "Fat cat",
