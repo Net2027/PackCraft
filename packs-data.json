@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T06:43:43Z",
+  "updatedAt": "2026-08-31T06:44:12Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -206,6 +206,15 @@
       "description": null,
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Pack/Waish/packtl%20copy.jpg.jpg",
       "tested": false,
+      "featured": false
+    },
+    {
+      "name": "mysmce abyss",
+      "java": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Pack/mysmce%20abyss/Java/§L§7Abyss §e♛ §8[16x].zip",
+      "bedrock": null,
+      "description": "ریسورس پک بدوارز و پی وی پی میستی abyss 16x",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Pack/mysmce%20abyss/pack.png",
+      "tested": true,
       "featured": false
     },
     {
