@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T06:44:12Z",
+  "updatedAt": "2026-08-31T06:44:36Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -298,6 +298,15 @@
       "compatibility": "سازگار با جاوا",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/continuity/images%20(1).jpg",
       "tested": true,
+      "featured": false
+    },
+    {
+      "name": "create",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/create/File/create-1.21.1-6.0.10(1)%20-%20Copy.jar",
+      "description": "ماد معروف کریت نسخه 1.21.1",
+      "compatibility": "جاوا",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/create/icon.png",
+      "tested": false,
       "featured": false
     },
     {
