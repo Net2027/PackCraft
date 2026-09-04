@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T07:20:05Z",
+  "updatedAt": "2026-09-04T07:20:48Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -1157,6 +1157,15 @@
     }
   ],
   "shaders": [
+    {
+      "name": "Bliss",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Bliss/File/Bliss%20shader.zip",
+      "description": null,
+      "compatibility": "جاوا",
+      "icon": null,
+      "tested": false,
+      "featured": false
+    },
     {
       "name": "Chroma Visuals",
       "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Chroma%20Visuals/File/Chroma%20Visuals.mcpack",
