@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T07:20:48Z",
+  "updatedAt": "2026-09-04T07:21:13Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -214,6 +214,15 @@
       "bedrock": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Pack/Waish/Bedrock/Waish%2010k%20%5BBedrock%5D.mcpack",
       "description": null,
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Pack/Waish/packtl%20copy.jpg.jpg",
+      "tested": false,
+      "featured": false
+    },
+    {
+      "name": "low on fire",
+      "java": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Pack/low%20on%20fire/Java/LowOnFire v26.1§8_1.zip",
+      "bedrock": null,
+      "description": "26.1\r\n کوچک کردن انیمیشن اتش در مواقع سوختن",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Pack/low%20on%20fire/2b55a22edb056644e597287e34b0fe6cf0400ba6_1.webp",
       "tested": false,
       "featured": false
     },
