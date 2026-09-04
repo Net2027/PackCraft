@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T07:21:13Z",
+  "updatedAt": "2026-09-04T07:21:23Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -232,6 +232,15 @@
       "bedrock": null,
       "description": "ریسورس پک بدوارز و پی وی پی میستی abyss 16x",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Pack/mysmce%20abyss/pack.png",
+      "tested": true,
+      "featured": false
+    },
+    {
+      "name": "mysmce nimbus",
+      "java": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Pack/mysmce%20nimbus/Java/!      §bNimbus§8 [64x].zip",
+      "bedrock": null,
+      "description": "ریسورس پک جذاب بدوارز و pvp میستی nimbus 64x",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Pack/mysmce%20nimbus/pack.png",
       "tested": true,
       "featured": false
     },
