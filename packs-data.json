@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T12:43:31Z",
+  "updatedAt": "2026-09-11T12:58:28Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -243,6 +243,15 @@
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Pack/mysmce%20nimbus/pack.png",
       "tested": true,
       "featured": false
+    },
+    {
+      "name": "vTxg",
+      "java": null,
+      "bedrock": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Pack/vTxg/Bedrock/vTxmg%20.mcpack",
+      "description": "ریسورس پک تاریک و دارک برای پی وی پی \r\nبدراک ۱.۲۱ به بالا",
+      "icon": null,
+      "tested": true,
+      "featured": true
     },
     {
       "name": "zion 8x V2",
