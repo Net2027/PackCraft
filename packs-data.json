@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T19:21:31Z",
+  "updatedAt": "2026-09-12T19:28:40Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -1205,8 +1205,8 @@
     {
       "name": "Chroma Visuals",
       "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Chroma%20Visuals/File/Chroma%20Visuals.mcpack",
-      "description": "نسخه 1.12به بالا",
-      "compatibility": "سازگار با بدراک",
+      "description": "نسخه 1.12به بالا\r\n(بچ شده)",
+      "compatibility": "سازگار با بدراک(پچ)",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Chroma%20Visuals/photo_2026-08-16_20-50-18.jpg",
       "tested": true,
       "featured": false
