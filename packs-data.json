@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T19:31:43Z",
+  "updatedAt": "2026-09-12T19:32:30Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -1241,8 +1241,8 @@
     {
       "name": "Fused's Falling Leaves mt",
       "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Fused's%20Falling%20Leaves%20mt/File/Fused's%20Falling%20Leaves%20mt.mcaddon",
-      "description": "نسخه 1.12به بالا",
-      "compatibility": "سازگار با بدراک",
+      "description": "نسخه 1.12به بالا(پچ شده)",
+      "compatibility": "سازگار با بدراک (پچ)",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Fused's%20Falling%20Leaves%20mt/photo_2026-08-16_23-08-07.jpg",
       "tested": true,
       "featured": false
