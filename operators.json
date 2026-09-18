@@ -8,14 +8,6 @@
     "created_at": "2026-08-16T05:59:46Z"
   },
   {
-    "id": "180e34ddb50448a69ffab26567d6a62d",
-    "username": "kk",
-    "name": "داریوش",
-    "password_hash": "scrypt:32768:8:1$236bwgDAiAnA9F46$6254dc41f2588bc4efd141b48b0ca35c127fca27870bfa308129db24f64498d6d6c1c71f8222e0c35ac6865c3e48e807bd14f41f79dbf6bf7ce48e0de45b9540",
-    "active": true,
-    "created_at": "2026-08-29T09:30:22Z"
-  },
-  {
     "id": "e5d4b77e2e9446d988985a08712fca83",
     "username": "H",
     "name": "ابولفضل",
