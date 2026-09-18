@@ -24,14 +24,6 @@
     "created_at": "2026-08-29T09:30:22Z"
   },
   {
-    "id": "2eb77746fa8843ae810c76e1c18f646c",
-    "username": "kakka",
-    "name": "کیانوش",
-    "password_hash": "scrypt:32768:8:1$KbRysOFvm3fbqcrH$0643bcb69ded0c7ee439da8036da52fb25f8e091c6283f707a7709edbad4f33a5a9aa036b98aa4721fa5a7727550d1fb647b5a0a64039e9be09268a715a2b8da",
-    "active": false,
-    "created_at": "2026-08-30T17:10:26Z"
-  },
-  {
     "id": "e5d4b77e2e9446d988985a08712fca83",
     "username": "H",
     "name": "ابولفضل",
