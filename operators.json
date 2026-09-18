@@ -38,5 +38,13 @@
     "password_hash": "scrypt:32768:8:1$P5nfPQQoaMGZNVtw$95a4489504676447da4079898f46e638c1def029a3abf8834893b036a3e957347ae40436df087d8717fb0c26e6c4d4dd62fedfd768e59759db93520a96a69d25",
     "active": true,
     "created_at": "2026-09-07T16:03:07Z"
+  },
+  {
+    "id": "7d5482563a4a4e859a240ebc11c1bcf1",
+    "username": "al",
+    "name": "",
+    "password_hash": "scrypt:32768:8:1$QOFROdtrjs9qNMlj$e2c8fbabd2f7bee48c35f9f4eae676a0baa93e2cd0001026562e5b56060264a905a952411c8c7954e81f5b31d183fb491b3b8c31c2fba33e3f9ab389a0cd169d",
+    "active": true,
+    "created_at": "2026-09-18T08:00:52Z"
   }
 ]
