@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T07:07:32Z",
+  "updatedAt": "2026-09-21T07:08:08Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -270,15 +270,6 @@
       "icon": null,
       "tested": true,
       "featured": true
-    },
-    {
-      "name": "اکشن اند استاف (1.3)",
-      "java": null,
-      "bedrock": null,
-      "description": "بدراک 1.21.51 به بالا\r\nمناسب برای smp و رول پلی",
-      "icon": null,
-      "tested": false,
-      "featured": false
     },
     {
       "name": "اکشن اند استاف 1.3",
