@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T10:09:10Z",
+  "updatedAt": "2026-09-21T10:12:55Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -1582,6 +1582,13 @@
       "description": "انواع استریم ها توسط گروه پک کرفت",
       "link": "https://www.aparat.com/mine.pack",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Contact/کانال  ما در آپارات/Screenshot%20(403).png",
+      "tested": false
+    },
+    {
+      "name": "کانال ما در سروش",
+      "description": "محتوای جذاب و جالب ماینکرافت برای شما",
+      "link": "https://splus.ir/hihihihihihihiu",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Contact/کانال ما در سروش/08cb2245-2e76-4490-b491-766fa77f70ae.png",
       "tested": false
     },
     {
