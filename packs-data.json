@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T10:30:32Z",
+  "updatedAt": "2026-09-25T10:31:55Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -1259,8 +1259,8 @@
     {
       "name": "Kellys_RTX_Base_pack_3.6",
       "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Kellys_RTX_Base_pack_3.6/File/Kellys_RTX_Base_pack_3.6_Size_fix.mcpack",
-      "description": "نسخه 1.12به بالا",
-      "compatibility": "سازگار با بدراک",
+      "description": "نسخه 1.12به بالا(پچ شده)",
+      "compatibility": "سازگار با بدراک(پچ)",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Kellys_RTX_Base_pack_3.6/photo_2026-08-16_22-55-13.jpg",
       "tested": true,
       "featured": false
