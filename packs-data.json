@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T18:11:43Z",
+  "updatedAt": "2026-10-07T18:16:35Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -324,6 +324,15 @@
       "description": "بدراک 1.20 به بالا",
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/Lucky-SkyBlock/com.StusioCraftStudio.LuckySkyBlock_444bdf4d-51f9-4afd-812e-53235a2ab064.png",
+      "tested": true,
+      "featured": true
+    },
+    {
+      "name": "Physics (فیزیک ماینکرافت )",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/Physics (فیزیک ماینکرافت )/File/Physics%20Pro%201.0%20Add-On%5Bpack%20craft.ir%5D.mcaddon",
+      "description": null,
+      "compatibility": "سازگار بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/Physics (فیزیک ماینکرافت )/Screenshot_۲۰۲۶۱۰۰۷-۲۱۴۴۱۰_Video Player.jpg",
       "tested": true,
       "featured": true
     },
