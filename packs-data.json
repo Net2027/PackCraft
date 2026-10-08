@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T12:46:08Z",
+  "updatedAt": "2026-10-08T12:48:16Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -874,15 +874,6 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/مود ترسناک و جدید امروزی hors.jar/Screenshot%20(401).png",
       "tested": true,
-      "featured": false
-    },
-    {
-      "name": "مود ترسناک وریتی",
-      "file": null,
-      "description": "دوستان این نسخه دچار مشکل شده و نسخه جدید و اصلی این مود در سایت آپلود شد",
-      "compatibility": "این نسخه نابود شد",
-      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/مود ترسناک وریتی/hq720.jpg",
-      "tested": false,
       "featured": false
     },
     {
