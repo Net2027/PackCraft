@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T12:48:16Z",
+  "updatedAt": "2026-10-08T12:59:09Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -495,6 +495,15 @@
       "description": "بدراک 1.26.30 به بالا",
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/اکشن اند استاف نسخه 1.11 (جدید ترین نسخه )/70890379-6537-l__2672.jpg",
+      "tested": true,
+      "featured": true
+    },
+    {
+      "name": "اکشن اند استاف نسخه 1.12 (جدید ترین نسخه )",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/اکشن اند استاف نسخه 1.12 (جدید ترین نسخه )/File/Actions%20Stuff%201.12%20%5Bpack%20craft.ir%5D.mcpack",
+      "description": "بدراک1.26.50 به بالا",
+      "compatibility": "سازگار بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/اکشن اند استاف نسخه 1.12 (جدید ترین نسخه )/actionsandstuff_Thumbnail_0-1.jpg",
       "tested": true,
       "featured": true
     },
