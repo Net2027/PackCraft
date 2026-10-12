@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T16:43:45Z",
+  "updatedAt": "2026-10-12T16:52:00Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -300,6 +300,15 @@
     }
   ],
   "mods": [
+    {
+      "name": "(مود انمیشن ماینکرافت) Smoth moves",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/(مود انمیشن ماینکرافت) Smoth moves/File/Smooth%20Moves-%5Bpack%20craft.ir%5D.mcpack",
+      "description": "بدراک ۱.۲۶.۵۰ به بالا",
+      "compatibility": "سازگار بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/(مود انمیشن ماینکرافت) Smoth moves/IMG_20261012_201307_829.jpg",
+      "tested": true,
+      "featured": true
+    },
     {
       "name": "1000ماموریت",
       "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/1000ماموریت/File/1000%20parcur%20Minecraft%20movazi.mctemplate",
