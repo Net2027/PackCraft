@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T10:44:45Z",
+  "updatedAt": "2026-10-13T10:48:52Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -497,6 +497,15 @@
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/انواع کریپر/photo_2024-12-14_19-40-18.jpg",
       "tested": false,
       "featured": false
+    },
+    {
+      "name": "انگل های کودک",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/انگل های کودک/File/Baby%20Parasites%20Add-on%20v1.0.2.mcaddon",
+      "description": "بدراک۱.۲۶.۳۰ به بالا",
+      "compatibility": "سازگار بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/انگل های کودک/baby-parasites-png.png",
+      "tested": true,
+      "featured": true
     },
     {
       "name": "اکشن اند استاف نسخه 1.11",
