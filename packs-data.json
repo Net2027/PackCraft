@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T11:13:54Z",
+  "updatedAt": "2026-10-13T11:17:21Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -1181,6 +1181,15 @@
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/پهباد ها های جدید/photo_2026-08-17_08-52-48.jpg",
       "tested": true,
       "featured": false
+    },
+    {
+      "name": "پورتال سیفت (sift portal)",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/پورتال سیفت (sift portal)/File/Sift%20portal%20BP%5Bpackcraft.ir%5D.mcpack",
+      "description": "بدراک ۱.۲۶.۵۰ به بالا",
+      "compatibility": "سازگار بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/پورتال سیفت (sift portal)/mcpedl-png.png",
+      "tested": true,
+      "featured": true
     },
     {
       "name": "چراغ های جدید",
