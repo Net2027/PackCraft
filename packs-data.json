@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T07:17:43Z",
+  "updatedAt": "2026-10-16T07:18:18Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -1639,13 +1639,6 @@
       "description": "اخبار و اطلاع رسانی سایت در این کانال",
       "link": "https://rubika.ir/pack_405",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Contact/کانال ما در پیامرسان روبیکا/images%20(3).jpg",
-      "tested": false
-    },
-    {
-      "name": "کانال ما در یوتیوب",
-      "description": "انواع استریم ها توسط گروه پک کرفت",
-      "link": null,
-      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Contact/کانال ما در یوتیوب/Screenshot%20(405).png",
       "tested": false
     }
   ]
