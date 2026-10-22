@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T09:55:37Z",
+  "updatedAt": "2026-10-22T09:59:27Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -1035,6 +1035,15 @@
       "description": "بدراک1.26 به بالا",
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/مینی ماب های بامزه/IMG_20260731_123101_293.jpg",
+      "tested": true,
+      "featured": true
+    },
+    {
+      "name": "مینی مپ پیشرفته",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/مینی مپ پیشرفته/File/Advanced%20Minimap%20v4-%5Bpackcraft.ir%5D.mcaddon",
+      "description": "بدراک ۱.۲۶.۳۰ به بالا",
+      "compatibility": "سازگار بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/مینی مپ پیشرفته/7e378fd5-a886-45e7-b279-79ccd1f9c097.jpeg",
       "tested": true,
       "featured": true
     },
