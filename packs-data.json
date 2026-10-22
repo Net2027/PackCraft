@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T09:18:02Z",
+  "updatedAt": "2026-10-22T09:20:00Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -35,15 +35,6 @@
       "description": "سازگار با نسخه 1.21 به بالا",
       "icon": null,
       "tested": false,
-      "featured": false
-    },
-    {
-      "name": "Actions Stuff",
-      "java": null,
-      "bedrock": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Pack/Actions%20Stuff/Bedrock/Actions%20Stuff%201.11%20%5BMEISAM%20SAYREX%5D.mcpack",
-      "description": "تست شده روی نسخه ۱.۲۶",
-      "icon": null,
-      "tested": true,
       "featured": false
     },
     {
