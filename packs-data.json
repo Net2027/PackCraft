@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T10:47:59Z",
+  "updatedAt": "2026-10-24T10:54:36Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -387,6 +387,15 @@
       "description": null,
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/آیرون من/photo_2026-07-21_14-23-46.jpg",
+      "tested": false,
+      "featured": false
+    },
+    {
+      "name": "ارابه های خفن (horse carts )",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/ارابه های خفن (horse carts )/File/horse-carts-v1.1.mcaddon",
+      "description": "بدراک ۱.۲۶ به بالا",
+      "compatibility": "سازگار بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/ارابه های خفن (horse carts )/horse-carts-addon-thumbnail-png.png",
       "tested": false,
       "featured": false
     },
