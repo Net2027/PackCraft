@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T05:43:22Z",
+  "updatedAt": "2026-10-30T05:45:14Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -533,6 +533,15 @@
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/اکشن اند استاف نسخه 1.12 (جدید ترین نسخه )/IMG_20261007_120107_236-768x432.webp",
       "tested": true,
       "featured": true
+    },
+    {
+      "name": "بطری زمانی یا تمپورال (temporal bottle)",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/بطری زمانی یا تمپورال (temporal bottle)/File/Temporal_Bottle_v0.3%5Bpackcraft.ir%5D.mcaddon",
+      "description": "بدراک ۱.۲۶.۳۰ به بالا",
+      "compatibility": "سازگار بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/بطری زمانی یا تمپورال (temporal bottle)/Screenshot_۲۰۲۶۱۰۳۰-۰۹۰۴۱۴_Gallery.jpg",
+      "tested": false,
+      "featured": false
     },
     {
       "name": "بلاک جادویی",
