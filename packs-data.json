@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T15:01:20Z",
+  "updatedAt": "2026-11-02T15:06:38Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -640,6 +640,15 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/تی ان تی های جدید/photo_2026-08-14_11-05-57.jpg",
       "tested": true,
+      "featured": false
+    },
+    {
+      "name": "جاودانگی سگ",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/جاودانگی سگ/File/Immortal_Dogs%5Bpack%20craft.ir%5D_V1.2.mcaddon",
+      "description": "بدراک 1.26.30 به بالا",
+      "compatibility": "سازگار بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/جاودانگی سگ/mcpedl-jpg.jpg",
+      "tested": false,
       "featured": false
     },
     {
