@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T11:36:07Z",
+  "updatedAt": "2026-11-07T11:37:52Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -1679,6 +1679,13 @@
       "description": "محتوای جذاب و جالب ماینکرافت برای شما",
       "link": "https://splus.ir/hihihihihihihiu",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Contact/کانال ما در سروش/08cb2245-2e76-4490-b491-766fa77f70ae.png",
+      "tested": false
+    },
+    {
+      "name": "کانال ما در پیامرسان ایتا",
+      "description": "اخبار و اطلاع رسانی های پک کرفت",
+      "link": "https://eitaa.com/packcraft",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Contact/کانال ما در پیامرسان ایتا/IMG_bebdd8db-de12-43e9-b3da-ed42863d6262.png",
       "tested": false
     },
     {
