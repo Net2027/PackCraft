@@ -29,8 +29,6 @@
 	    })();
 	</script>
 
-    <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
-
     <!-- icon -->
     <link rel="icon" type="image/png" href="logo.png">
 
@@ -1741,8 +1739,20 @@ kbd {
 
 .contact-cards-list {
     display:grid;
-    grid-template-columns:repeat(auto-fill,minmax(260px,1fr));
+    grid-template-columns:repeat(auto-fill,minmax(min(100%,260px),1fr));
     gap:18px;
+}
+
+.contact-cards-list>.card {
+    min-width:0;
+}
+
+.contact-cards-list .card-info {
+    align-self:stretch;
+}
+
+.contact-cards-list .card-title,.contact-cards-list .card-desc {
+    overflow-wrap:anywhere;
 }
 
 .pack-detail-back {
@@ -2999,9 +3009,126 @@ html[data-theme=light] .fixed-bg {
         // ===== آدرس بک‌اند روی Railway =====
         const API_BASE = 'https://web-production-b6b4a.up.railway.app'; // فقط برای ورود/ثبت‌نام کاربر و پنل ادمین استفاده می‌شه
 
+        // ===== صف ارسال مطمئن آمار (بازدید و دانلود) =====
+        // هر رویداد اول توی localStorage ذخیره می‌شه و فقط وقتی سرور تأیید کرد پاک می‌شه.
+        // اگه اینترنت قطع بود یا سرور جواب نداد، با فاصله‌ی بیشتر و بیشتر دوباره می‌فرسته؛
+        // حتی اگه کاربر صفحه رو ببنده، دفعه‌ی بعد که سایت باز شد ادامه می‌ده.
+        const PING_QUEUE_KEY = 'pc_ping_queue_v1';
+        const PING_LOCK_KEY = 'pc_ping_lock_v1';
+        const PING_MAX_ITEMS = 50;                       // سقف صف تا حافظه پر نشه
+        const PING_MAX_AGE = 7 * 24 * 60 * 60 * 1000;    // رویدادهای قدیمی‌تر از ۷ روز دور ریخته می‌شن
+        let memoryPingQueue = [];                        // اگه localStorage در دسترس نبود
+        let pingFlushing = false;
+        let pingFailCount = 0;
+        let pingRetryTimer = null;
+
+        function readPingQueue() {
+            try {
+                const q = JSON.parse(localStorage.getItem(PING_QUEUE_KEY) || '[]');
+                return Array.isArray(q) ? q : [];
+            } catch (e) {
+                return memoryPingQueue;
+            }
+        }
+
+        function writePingQueue(queue) {
+            memoryPingQueue = queue;
+            try { localStorage.setItem(PING_QUEUE_KEY, JSON.stringify(queue)); } catch (e) { /* فقط حافظه */ }
+        }
+
+        // قفل ساده بین تب‌ها تا دو تب هم‌زمان یک رویداد رو دوبار نفرستن
+        function acquirePingLock() {
+            try {
+                const last = Number(localStorage.getItem(PING_LOCK_KEY) || 0);
+                if (Date.now() - last < 6000) return false;
+                localStorage.setItem(PING_LOCK_KEY, String(Date.now()));
+            } catch (e) { /* قفل ممکن نیست؛ ادامه می‌دیم */ }
+            return true;
+        }
+
+        function releasePingLock() {
+            try { localStorage.removeItem(PING_LOCK_KEY); } catch (e) { /* مهم نیست */ }
+        }
+
+        // نتیجه: 'ok' (تأیید شد)، 'drop' (سرور رد کرد و تکرارش فایده نداره)، 'retry' (بعداً دوباره)
+        function sendPingItem(item) {
+            const controller = typeof AbortController === 'function' ? new AbortController() : null;
+            const timer = controller ? setTimeout(() => controller.abort(), 8000) : null;
+            const options = { method: 'POST', keepalive: true, signal: controller ? controller.signal : undefined };
+            if (item.json) {
+                options.headers = { 'Content-Type': 'application/json' };
+                options.body = item.json;
+            }
+            return fetch(item.url, options)
+                .then(res => {
+                    if (res.ok) return 'ok';
+                    if (res.status === 408 || res.status === 429 || res.status >= 500) return 'retry';
+                    return 'drop';
+                })
+                .catch(() => 'retry')
+                .finally(() => { if (timer) clearTimeout(timer); });
+        }
+
+        function schedulePingRetry(fixedDelay) {
+            clearTimeout(pingRetryTimer);
+            // ۵ ثانیه، ۱۰، ۲۰، ۴۰ ... تا سقف ۵ دقیقه (یا زمان ثابت وقتی فقط منتظر آزاد شدن قفل هستیم)
+            const delay = fixedDelay || Math.min(5000 * Math.pow(2, pingFailCount), 5 * 60 * 1000);
+            pingRetryTimer = setTimeout(flushPingQueue, delay);
+        }
+
+        function flushPingQueue() {
+            if (pingFlushing || readPingQueue().length === 0) return;
+            if (!acquirePingLock()) { schedulePingRetry(3000); return; }
+            pingFlushing = true;
+            // تا وقتی این تب زنده و در حال ارسال است، قفل هر ۲ ثانیه تمدید می‌شود؛
+            // اگه تب وسط کار بسته بشه یا کرش کنه، قفل ظرف ۶ ثانیه خودش آزاد می‌شه
+            const heartbeat = setInterval(() => {
+                try { localStorage.setItem(PING_LOCK_KEY, String(Date.now())); } catch (e) { /* مهم نیست */ }
+            }, 2000);
+
+            function finish(allSent) {
+                clearInterval(heartbeat);
+                pingFlushing = false;
+                releasePingLock();
+                if (allSent) {
+                    pingFailCount = 0;
+                } else {
+                    pingFailCount++;
+                    schedulePingRetry();
+                }
+            }
+
+            (function sendNext() {
+                const queue = readPingQueue();
+                if (queue.length === 0) return finish(true);
+                const item = queue[0];
+                sendPingItem(item).then(result => {
+                    if (result === 'retry') return finish(false);
+                    // تأیید شد (یا سرور قطعاً رد کرد): از صف حذفش می‌کنیم
+                    writePingQueue(readPingQueue().filter(i => i.id !== item.id));
+                    sendNext();
+                });
+            })();
+        }
+
+        function enqueuePing(url, jsonBody, flushNow) {
+            const now = Date.now();
+            let queue = readPingQueue().filter(i => i && i.url && (now - i.t) < PING_MAX_AGE);
+            queue.push({ id: now + '-' + Math.random().toString(36).slice(2, 8), url: url, json: jsonBody || null, t: now });
+            if (queue.length > PING_MAX_ITEMS) queue = queue.slice(-PING_MAX_ITEMS);
+            writePingQueue(queue);
+            if (flushNow !== false) flushPingQueue();
+        }
+
+        // وقتی اینترنت برگشت، یا کاربر به تب برگشت/تب رو ترک کرد، صف رو خالی کن
+        window.addEventListener('online', flushPingQueue);
+        document.addEventListener('visibilitychange', flushPingQueue);
+        // تب داره بسته می‌شه: اگه وسط ارسال بودیم قفل رو آزاد کن تا همون رویداد (که هنوز توی صف مونده) در جلسه‌ی بعد بدون معطلی فرستاده بشه
+        window.addEventListener('pagehide', () => { if (pingFlushing) releasePingLock(); });
+
         // ===== ثبت دانلود هر کارت (برای آمار پنل ادمین) =====
         function trackDownload(category, name) {
-            fetch(`${API_BASE}/api/download-hit/${category}/${encodeURIComponent(name)}`, { method: 'POST' }).catch(() => {});
+            enqueuePing(`${API_BASE}/api/download-hit/${category}/${encodeURIComponent(name)}`, null);
         }
 
         // ===== ثبت بازدید (برای آمار پنل ادمین) =====
@@ -3024,11 +3151,14 @@ html[data-theme=light] .fixed-bg {
             }
         } catch (e) { /* بی‌خیال، فقط یعنی امروز رو دوباره می‌شمریم */ }
 
-        fetch(`${API_BASE}/api/visit`, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ new_visitor: isNewVisitor, new_today: isNewToday }),
-        }).catch(() => {});
+        // رویداد بازدید همون لحظه توی صف ذخیره می‌شه (که اگه کاربر زود رفت از دست نره)،
+        // ولی ارسالش به زمان بیکاری مرورگر می‌افته تا با لود اصلی سایت سر پهنای باند رقابت نکنه
+        enqueuePing(`${API_BASE}/api/visit`, JSON.stringify({ new_visitor: isNewVisitor, new_today: isNewToday }), false);
+        if ('requestIdleCallback' in window) {
+            requestIdleCallback(flushPingQueue, { timeout: 4000 });
+        } else {
+            setTimeout(flushPingQueue, 2000);
+        }
 
         // ===== گرفتن اطلاعات سایت (پک/مود/شیدر/فیلم) با کش توی مرورگر =====
         // این اطلاعات مستقیم از فایل packs-data.json که کنار همین index.html خونده می‌شه.
@@ -3041,7 +3171,11 @@ html[data-theme=light] .fixed-bg {
                 const raw = localStorage.getItem(SITE_DATA_CACHE_KEY);
                 if (raw) {
                     const parsed = JSON.parse(raw);
-                    if (parsed.timestamp && (Date.now() - parsed.timestamp) < SITE_DATA_CACHE_TTL) {
+                    if (parsed && parsed.data) {
+                        // کش هر قدر هم قدیمی باشه، فوراً نشون داده می‌شه (بدون منتظر موندن برای اینترنت).
+                        // اگه کهنه بود، نسخه‌ی تازه پشت صحنه می‌گیریم و دفعه‌ی بعد نمایش داده می‌شه.
+                        const isFresh = parsed.timestamp && (Date.now() - parsed.timestamp) < SITE_DATA_CACHE_TTL;
+                        if (!isFresh) fetchSiteDataFresh(3).catch(() => {});
                         return Promise.resolve(parsed.data);
                     }
                 }
@@ -3049,10 +3183,15 @@ html[data-theme=light] .fixed-bg {
                 // کش خراب بود، نادیده می‌گیریم و از فایل می‌گیریم
             }
 
-            // اگه همین الان یه درخواست دیگه در حال رفتنه، منتظرش می‌مونیم
-            if (siteDataPendingPromise) return siteDataPendingPromise;
+            return fetchSiteDataFresh();
+        }
 
-            siteDataPendingPromise = fetch('packs-data.json', { cache: 'no-store' })
+        // یک بار تلاش برای گرفتن فایل داده؛ اگه ۱۰ ثانیه جواب نیومد قطعش می‌کنیم تا تلاش بعدی شروع بشه
+        function fetchSiteDataOnce() {
+            const controller = typeof AbortController === 'function' ? new AbortController() : null;
+            const timer = controller ? setTimeout(() => controller.abort(), 10000) : null;
+            // no-cache یعنی «از سرور بپرس عوض شده یا نه» (اگه نشده بود جواب خیلی سبک ۳۰۴ می‌آید)
+            return fetch('packs-data.json', { cache: 'no-cache', signal: controller ? controller.signal : undefined })
                 .then(res => {
                     if (!res.ok) throw new Error('خطا در دریافت اطلاعات از فایل packs-data.json');
                     return res.json();
@@ -3065,8 +3204,35 @@ html[data-theme=light] .fixed-bg {
                     }
                     return data;
                 })
-                .catch(err => {
-                    // اگه درخواست شکست خورد، حتی یه کش قدیمی (منقضی‌شده) بهتر از هیچیه
+                .finally(() => { if (timer) clearTimeout(timer); });
+        }
+
+        // بین دو تلاش صبر می‌کنه (۲، ۴، ۸ و بعد هر ۱۵ ثانیه)؛ اگه اینترنت وصل شد یا کاربر دکمه رو زد، فوراً ادامه می‌ده
+        function waitBeforeRetry(attemptNumber) {
+            return new Promise(resolve => {
+                const delay = Math.min(2000 * Math.pow(2, attemptNumber - 1), 15000);
+                let timer = null;
+                const done = () => {
+                    clearTimeout(timer);
+                    window.removeEventListener('online', done);
+                    window.removeEventListener('sitedata:retry-now', done);
+                    resolve();
+                };
+                timer = setTimeout(done, delay);
+                window.addEventListener('online', done);
+                window.addEventListener('sitedata:retry-now', done);
+            });
+        }
+
+        // maxAttempts خالی باشه (وقتی هیچ کشی برای نمایش نداریم) تا وصل شدن بی‌نهایت تلاش می‌کنه
+        function fetchSiteDataFresh(maxAttempts) {
+            // اگه همین الان یه درخواست دیگه در حال رفتنه، منتظرش می‌مونیم
+            if (siteDataPendingPromise) return siteDataPendingPromise;
+
+            const limit = maxAttempts || Infinity;
+            const attempt = (n) => fetchSiteDataOnce().catch(err => {
+                if (n >= limit) {
+                    // تلاش‌ها تموم شد: حتی یه کش قدیمی (منقضی‌شده) بهتر از هیچیه
                     try {
                         const raw = localStorage.getItem(SITE_DATA_CACHE_KEY);
                         if (raw) {
@@ -3075,6 +3241,15 @@ html[data-theme=light] .fixed-bg {
                         }
                     } catch (e2) { /* کاری نمی‌شه کرد */ }
                     throw err;
+                }
+                window.dispatchEvent(new CustomEvent('sitedata:retrying', { detail: { attempt: n } }));
+                return waitBeforeRetry(n).then(() => attempt(n + 1));
+            });
+
+            siteDataPendingPromise = attempt(1)
+                .then(data => {
+                    window.dispatchEvent(new Event('sitedata:ok'));
+                    return data;
                 })
                 .finally(() => {
                     siteDataPendingPromise = null;
@@ -3515,7 +3690,7 @@ html[data-theme=light] .fixed-bg {
                     if (contacts.length === 0) return; // «به زودی» همونطور می‌مونه
                     allContacts = contacts;
                     comingSoon.style.display = 'none';
-                    listWrapper.style.display = 'flex';
+                    listWrapper.style.display = 'grid';
                     if (searchBox) searchBox.style.display = 'block';
                     renderContactList(contacts);
                 })
@@ -3757,20 +3932,51 @@ html[data-theme=light] .fixed-bg {
         if (event.key === 'Escape' && document.activeElement.closest('nav') && window.innerWidth <= 900) menu.focus();
     });
     // The actual data file is supplied by the site. Do not fabricate archive items or totals.
-    getSiteData().catch(() => {
-        for (const category of ['resource', 'mods', 'shaders', 'videos', 'contact']) {
-            const state = document.getElementById(category + '-coming-soon');
-            if (!state || state.style.display === 'none') continue;
-            state.querySelector('h2').textContent = 'دریافت اطلاعات انجام نشد';
-            state.querySelector('p').textContent = 'آرشیو در حال حاضر در دسترس نیست. کمی بعد دوباره تلاش کن.';
-            const retry = document.createElement('button');
-            retry.type = 'button';
-            retry.className = 'retry-button';
-            retry.textContent = 'تلاش دوباره';
-            retry.addEventListener('click', () => window.location.reload());
-            state.append(retry);
+    // وضعیت اتصال: تا وقتی داده نیومده، به کاربر می‌گیم داریم دوباره تلاش می‌کنیم؛ بعد از وصل شدن متن اصلی برمی‌گرده
+    (function connectionStatus() {
+        const categories = ['resource', 'mods', 'shaders', 'videos', 'contact'];
+        const original = {};
+        function showRetrying() {
+            for (const category of categories) {
+                const state = document.getElementById(category + '-coming-soon');
+                if (!state || state.style.display === 'none') continue;
+                const title = state.querySelector('h2');
+                const text = state.querySelector('p');
+                if (!title || !text) continue;
+                if (!(category in original)) original[category] = { title: title.textContent, text: text.textContent };
+                title.textContent = 'اتصال برقرار نشد';
+                text.textContent = navigator.onLine === false
+                    ? 'به اینترنت وصل نیستی. به محض وصل شدن، خودکار دوباره تلاش می‌کنم…'
+                    : 'سرور جواب نداد. در حال تلاش دوباره…';
+                if (!state.querySelector('.retry-button')) {
+                    const retry = document.createElement('button');
+                    retry.type = 'button';
+                    retry.className = 'retry-button';
+                    retry.textContent = 'تلاش همین حالا';
+                    retry.addEventListener('click', () => {
+                        text.textContent = 'در حال اتصال…';
+                        window.dispatchEvent(new Event('sitedata:retry-now'));
+                    });
+                    state.append(retry);
+                }
+            }
         }
-    });
+        function restore() {
+            for (const category of Object.keys(original)) {
+                const state = document.getElementById(category + '-coming-soon');
+                if (!state) continue;
+                const title = state.querySelector('h2');
+                const text = state.querySelector('p');
+                if (title) title.textContent = original[category].title;
+                if (text) text.textContent = original[category].text;
+                const retry = state.querySelector('.retry-button');
+                if (retry) retry.remove();
+                delete original[category];
+            }
+        }
+        window.addEventListener('sitedata:retrying', showRetrying);
+        window.addEventListener('sitedata:ok', restore);
+    })();
     // Keep motion optional and pause it while the document is in the background.
     function updateArtMotion() {
         const art = document.querySelector('.world-art');
@@ -3780,6 +3986,232 @@ html[data-theme=light] .fixed-bg {
     prefersReducedMotion.addEventListener('change', updateArtMotion);
     updateArtMotion();
 })();
+    </script>
+
+    <!-- ===== دکمه پشتیبانی + فرم Zapier (بلاک مستقل؛ به بقیه‌ی سایت وابسته نیست) ===== -->
+    <style id="support-widget-css">
+        .sw-fab {
+            position: fixed;
+            z-index: 9000;
+            left: 20px;
+            bottom: calc(20px + env(safe-area-inset-bottom, 0px));
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            min-height: 48px;
+            padding: 0 18px;
+            border-radius: 999px;
+            background: var(--accent);
+            color: #04121f;
+            font-size: 13px;
+            font-weight: 700;
+            line-height: 1;
+            box-shadow: 0 10px 30px #0006, 0 0 0 1px #ffffff1f inset;
+            transition: transform .2s, box-shadow .2s, background .2s;
+        }
+        html[data-theme=light] .sw-fab { color: #fff; }
+        .sw-fab:hover { transform: translateY(-2px); box-shadow: 0 14px 34px #0007, 0 0 0 1px #ffffff2e inset; }
+        .sw-fab svg { width: 20px; height: 20px; flex-shrink: 0; }
+
+        .sw-panel {
+            position: fixed;
+            z-index: 9001;
+            left: 20px;
+            bottom: calc(84px + env(safe-area-inset-bottom, 0px));
+            width: min(420px, calc(100vw - 40px));
+            height: min(680px, calc(100dvh - 110px));
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            border: 1px solid var(--border-strong);
+            border-radius: var(--radius-lg);
+            background: var(--surface-1);
+            color: var(--text-main);
+            box-shadow: var(--shadow-panel), 0 24px 70px #0006;
+            animation: sw-in .25s var(--ease-out);
+        }
+        @keyframes sw-in { from { opacity: 0; transform: translateY(14px) scale(.98); } to { opacity: 1; transform: none; } }
+
+        .sw-head {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+            padding: 12px 14px 12px 12px;
+            padding-top: calc(12px + env(safe-area-inset-top, 0px));
+            border-bottom: 1px solid var(--border);
+            background: var(--surface-2);
+        }
+        .sw-title { margin: 0; font-size: 14px; font-weight: 700; line-height: 1.5; }
+        .sw-head-actions { display: flex; align-items: center; gap: 6px; flex-shrink: 0; }
+        .sw-newtab, .sw-close {
+            min-height: 36px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            background: var(--surface-1);
+            font-size: 12px;
+        }
+        .sw-newtab { padding: 0 11px; white-space: nowrap; color: var(--text-muted); }
+        .sw-close { width: 36px; font-size: 20px; line-height: 1; }
+        .sw-newtab:hover, .sw-close:hover { background: var(--surface-3); color: var(--text-main); }
+
+        .sw-body { position: relative; flex: 1; min-height: 0; background: var(--surface-1); }
+        .sw-frame { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; background: #fff; }
+        .sw-loader {
+            position: absolute;
+            inset: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            padding: 24px;
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 12px;
+            pointer-events: none;
+            z-index: 1;
+            background: var(--surface-1);
+        }
+        .sw-loader[hidden] { display: none; }
+        .sw-spin {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            border: 3px solid var(--border-strong);
+            border-top-color: var(--accent);
+            animation: sw-spin .8s linear infinite;
+        }
+        @keyframes sw-spin { to { transform: rotate(360deg); } }
+        .sw-hint { display: none; max-width: 280px; }
+        .sw-loader.slow .sw-hint { display: block; }
+
+        @media (max-width: 600px) {
+            .sw-fab { left: 14px; bottom: calc(14px + env(safe-area-inset-bottom, 0px)); min-height: 46px; padding: 0 16px; }
+            .sw-panel {
+                inset: 0;
+                width: 100%;
+                height: 100dvh;
+                border: 0;
+                border-radius: 0;
+                animation-name: sw-in-mobile;
+            }
+            @keyframes sw-in-mobile { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: none; } }
+        }
+        @media (prefers-reduced-motion: reduce) {
+            .sw-panel, .sw-spin { animation: none; }
+            .sw-fab { transition: none; }
+        }
+    </style>
+
+    <a class="sw-fab" id="sw-fab" href="https://packcraft.zapier.app/" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 14v-2a8 8 0 0 1 16 0v2"/><path d="M4 14h2.5a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H6a2 2 0 0 1-2-2Z"/><path d="M20 14h-2.5a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1H18a2 2 0 0 0 2-2Z"/><path d="M18 19c0 1.5-1.5 2-4 2"/></svg>
+        <span>پشتیبانی</span>
+    </a>
+
+    <section class="sw-panel" id="sw-panel" role="dialog" aria-modal="true" aria-labelledby="sw-title" hidden>
+        <div class="sw-head">
+            <h2 class="sw-title" id="sw-title">پشتیبانی پک کرفت</h2>
+            <div class="sw-head-actions">
+                <a class="sw-newtab" id="sw-newtab" href="https://packcraft.zapier.app/" target="_blank" rel="noopener">باز کردن در تب جدید</a>
+                <button type="button" class="sw-close" id="sw-close" aria-label="بستن پشتیبانی">&times;</button>
+            </div>
+        </div>
+        <div class="sw-body">
+            <div class="sw-loader" id="sw-loader">
+                <div class="sw-spin" aria-hidden="true"></div>
+                <div>در حال بارگذاری فرم…</div>
+                <div class="sw-hint">اگر فرم نمایش داده نشد، از دکمه‌ی «باز کردن در تب جدید» استفاده کن.</div>
+            </div>
+            <iframe class="sw-frame" id="sw-frame" title="فرم پشتیبانی پک کرفت" data-src="https://packcraft.zapier.app/" allow="clipboard-write" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+    </section>
+
+    <script>
+        (function supportWidget() {
+            var fab = document.getElementById('sw-fab');
+            var panel = document.getElementById('sw-panel');
+            var closeBtn = document.getElementById('sw-close');
+            var frame = document.getElementById('sw-frame');
+            var loader = document.getElementById('sw-loader');
+            if (!fab || !panel || !frame) return;
+
+            var slowTimer = null;
+            var loaded = false;
+            var mobileMq = window.matchMedia('(max-width: 600px)');
+
+            function lockScroll(lock) {
+                // فقط روی موبایل (حالت تمام‌صفحه) اسکرول پشت صفحه قفل می‌شود
+                document.documentElement.style.overflow = (lock && mobileMq.matches) ? 'hidden' : '';
+            }
+
+            function open() {
+                panel.hidden = false;
+                fab.setAttribute('aria-expanded', 'true');
+                if (!frame.getAttribute('src')) {
+                    // فرم فقط در اولین باز شدن لود می‌شود تا سرعت سایت کم نشود
+                    loader.hidden = false;
+                    loader.classList.remove('slow');
+                    slowTimer = setTimeout(function () { loader.classList.add('slow'); }, 10000);
+                    frame.setAttribute('src', frame.getAttribute('data-src'));
+                }
+                lockScroll(true);
+                closeBtn.focus();
+            }
+
+            function close() {
+                panel.hidden = true;
+                fab.setAttribute('aria-expanded', 'false');
+                lockScroll(false);
+                fab.focus();
+            }
+
+            frame.addEventListener('load', function () {
+                loaded = true;
+                clearTimeout(slowTimer);
+                loader.hidden = true;
+            });
+
+            // اگه فرم هنوز لود نشده بود و اینترنت دوباره وصل شد، خودکار دوباره تلاش می‌کنیم
+            window.addEventListener('online', function () {
+                if (!loaded && frame.getAttribute('src')) {
+                    loader.hidden = false;
+                    frame.setAttribute('src', frame.getAttribute('data-src'));
+                }
+            });
+
+            // دکمه‌ی پشتیبانی یک لینک عادی است و فرم را در تب جدید باز می‌کند (Zapier اجازه‌ی iframe نمی‌دهد)
+            closeBtn.addEventListener('click', close);
+
+            document.addEventListener('keydown', function (e) {
+                if (panel.hidden) return;
+                if (e.key === 'Escape') { close(); return; }
+                if (e.key === 'Tab') {
+                    var items = panel.querySelectorAll('a[href], button, iframe');
+                    if (!items.length) return;
+                    var first = items[0], last = items[items.length - 1];
+                    if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+                    else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+                }
+            });
+
+            // با چرخش گوشی یا تغییر اندازه از موبایل به دسکتاپ، قفل اسکرول اصلاح می‌شود
+            var onMq = function () { lockScroll(!panel.hidden); };
+            if (mobileMq.addEventListener) mobileMq.addEventListener('change', onMq);
+            else if (mobileMq.addListener) mobileMq.addListener(onMq);
+        })();
+    </script>
+
+    <!-- کش آفلاین: صفحه و عکس‌ها بعد از اولین بازدید بدون انتظار برای اینترنت بالا میان (فایل sw.js کنار index.html) -->
+    <script>
+        if ('serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost')) {
+            window.addEventListener('load', function () {
+                navigator.serviceWorker.register('sw.js').catch(function () {});
+            });
+        }
     </script>
 </body>
 </html>
