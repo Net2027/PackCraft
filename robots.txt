@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# پنل‌های مدیریتی نباید ایندکس شوند
+Disallow: /admin.html
+Disallow: /operator.html
+
+Sitemap: https://packcraft.ir/sitemap.xml
