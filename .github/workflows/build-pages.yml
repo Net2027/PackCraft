@@ -1,0 +1,50 @@
+name: بازسازی خودکار صفحات سئو
+
+# هر وقت packs-data.json تغییر کرد (پنل ادمین/اپراتور → ربات) یا خود اسکریپت عوض شد،
+# همه صفحات آرشیو + صفحه اختصاصی هر آیتم + sitemap + llms.txt دوباره ساخته و کامیت می‌شوند.
+# اعداد (مثلاً «۱۱۱ مود») و صفحات مودهای جدید به‌صورت خودکار به‌روز می‌شوند.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'packs-data.json'
+      - 'tools/build-pages.js'
+      - '.github/workflows/build-pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: rebuild-pages
+  cancel-in-progress: false
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Build pages
+        run: node tools/build-pages.js
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "packcraft-bot"
+          git config user.email "bot@packcraft.ir"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "تغییری نبود — کامیت لازم نیست"
+          else
+            git commit -m "به‌روزرسانی خودکار صفحات آرشیو و صفحات آیتم‌ها"
+            git push
+          fi
