@@ -1,0 +1,7 @@
+# Local development/review working files (kept out of the repo; the Pages
+# workflow also treats these as private)
+.review/
+_site/
+node_modules/
+.DS_Store
+Thumbs.db

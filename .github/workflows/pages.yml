@@ -1,0 +1,95 @@
+name: Build and deploy PackCraft Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'packs-data.json'
+      - 'index.html'
+      - 'style.css'
+      - 'site-client.js'
+      - 'build-pages.js'
+      - 'content-model.js'
+      - '404.html'
+      - 'admin.html'
+      - 'operator.html'
+      - 'robots.txt'
+      - 'llms.txt'
+      - 'CNAME'
+      - '*.png'
+      - 'google*.html'
+      - 'tests/**'
+      - 'server.js'
+      - '.github/workflows/pages.yml'
+  workflow_dispatch:
+  repository_dispatch:
+    types: [catalog-updated]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: packcraft-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out only the small website sources and catalog
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          persist-credentials: false
+          # Sparse checkout uses a blob filter; the download folders are never checked out.
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /index.html
+            /style.css
+            /site-client.js
+            /build-pages.js
+            /content-model.js
+            /packs-data.json
+            /404.html
+            /admin.html
+            /operator.html
+            /robots.txt
+            /llms.txt
+            /sitemap.xml
+            /CNAME
+            /logo.png
+            /main.png
+            /world.png
+            /google*.html
+            /server.js
+            /tests/
+            /scripts/
+      - name: Set up Node for the static generator
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Test page generation and preview behavior
+        run: node --test
+      - name: Generate the public website from the current catalog
+        run: node build-pages.js --out _site
+      - name: Reject private files in the public artifact
+        run: |
+          node -e "const fs=require('node:fs'),path=require('node:path');const denied=/^(operators\.json|downloads\.json|visits\.json|server\.js|build-pages\.js|content-model\.js|\.git|\.github|\.review|tests|scripts|backend|\.env)(\.|$)/i;function scan(dir){for(const e of fs.readdirSync(dir,{withFileTypes:true})){if(denied.test(e.name))throw new Error('Private artifact entry: '+path.join(dir,e.name));if(e.isDirectory())scan(path.join(dir,e.name));}}scan('_site');"
+      - name: Upload the generated website
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

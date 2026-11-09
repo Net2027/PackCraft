@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحه مورد نظر پیدا نشد (404) | پک کرفت</title>
+    <meta name="robots" content="noindex, follow">
+    <meta name="theme-color" content="#060911">
+    <link rel="icon" type="image/png" href="/logo.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700;800&family=Vazirmatn:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+
+    <style>
+        .error-404-wrap {
+            min-height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .card-404 {
+            max-width: 580px;
+            width: 100%;
+            padding: 48px 36px;
+            background: var(--surface-1);
+            backdrop-filter: blur(30px);
+            border: 1px solid var(--border-strong);
+            border-radius: var(--radius-2xl);
+            box-shadow: var(--shadow-panel), var(--shadow-inset);
+        }
+
+        html[data-theme="light"] .card-404 {
+            background: #ffffff;
+            border-color: rgba(188, 210, 235, 0.9);
+        }
+
+        .badge-404 {
+            display: inline-block;
+            font-family: var(--font-display);
+            font-size: 88px;
+            font-weight: 850;
+            line-height: 1;
+            background: linear-gradient(135deg, #38bdf8 0%, #a78bfa 50%, #34d399 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 12px;
+            filter: drop-shadow(0 0 25px rgba(56, 189, 248, 0.35));
+        }
+
+        .card-404 h1 {
+            font-size: 24px;
+            font-weight: 800;
+            margin-bottom: 12px;
+            color: var(--text-main);
+        }
+
+        .card-404 p {
+            color: var(--text-muted);
+            font-size: 14px;
+            line-height: 1.9;
+            margin-bottom: 28px;
+        }
+
+        .nav-links-404 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+            gap: 12px;
+        }
+
+        .btn-404 {
+            padding: 12px 18px;
+            border-radius: var(--radius-md);
+            font-size: 13px;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            transition: all var(--duration-fast);
+        }
+
+        .btn-404.primary {
+            background: var(--accent);
+            color: #031424;
+            box-shadow: 0 8px 24px var(--accent-glow);
+        }
+
+        html[data-theme="light"] .btn-404.primary {
+            color: #ffffff;
+        }
+
+        .btn-404.secondary {
+            background: var(--surface-2);
+            border: 1px solid var(--border);
+            color: var(--text-main);
+        }
+
+        .btn-404:hover {
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <!-- پس‌زمینه زنده و شیشه‌ای -->
+    <div class="fixed-bg" aria-hidden="true">
+        <span class="cinema-atmosphere"></span>
+        <span class="cinema-architecture"></span>
+        <span class="cinema-floor"></span>
+        <span class="cinema-vignette"></span>
+        <div class="floating-cubes">
+            <span class="f-cube c1"></span>
+            <span class="f-cube c2"></span>
+            <span class="f-cube c3"></span>
+            <span class="f-cube c4"></span>
+        </div>
+    </div>
+
+    <!-- هدر شیشه‌ای شناور -->
+    <div class="header-shell" id="header-shell">
+        <header id="site-header">
+            <a href="/" class="logo-section" aria-label="پک کرفت — صفحه اصلی">
+                <span class="logo-badge">
+                    <img src="/logo.png" alt="پک کرفت" width="36" height="36">
+                </span>
+                <span class="brand-text">
+                    <span class="brand-name">PackCraft</span>
+                    <span class="brand-tagline">مرجع تخصصی ماینکرفت</span>
+                </span>
+            </a>
+
+            <div class="header-actions">
+                <a href="/" class="btn-card-view" style="min-height:38px; padding:6px 16px;">
+                    <i class="ph ph-house"></i>
+                    <span>صفحه اصلی</span>
+                </a>
+            </div>
+        </header>
+    </div>
+
+    <main class="error-404-wrap">
+        <div class="card-404">
+            <div class="badge-404">404</div>
+            <h1>بلوک مورد نظر گم شده است!</h1>
+            <p>صفحه‌ای که به دنبال آن بودید یافت نشد یا ممکن است آدرس آن تغییر کرده باشد. برای پیدا کردن مود یا پک مورد نظرتان، از بخش‌های زیر استفاده کنید:</p>
+
+            <div class="nav-links-404">
+                <a href="/" class="btn-404 primary"><i class="ph ph-house"></i> صفحه اصلی</a>
+                <a href="/mods/" class="btn-404 secondary"><i class="ph ph-puzzle-piece"></i> مودها</a>
+                <a href="/resource-packs/" class="btn-404 secondary"><i class="ph ph-package"></i> ریسورس پک‌ها</a>
+                <a href="/shaders/" class="btn-404 secondary"><i class="ph ph-sparkle"></i> شیدرها</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <img src="/logo.png" alt="پک کرفت" width="32" height="35">
+                <div class="footer-brand-text">
+                    <strong>پک کرفت // PackCraft.ir</strong>
+                    <span>مرجع دانلود و آموزش ریسورس پک، مود و شیدر ماینکرفت</span>
+                </div>
+            </div>
+            <div class="footer-rights">
+                <p>© ۲۰۲۶ تمامی حقوق محفوظ است.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
