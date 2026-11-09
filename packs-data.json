@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T06:03:44Z",
+  "updatedAt": "2026-11-09T15:47:32Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -8,9 +8,7 @@
       "description": null,
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Pack/!          §2§l§oToxin §f§l§o16x/banner%20(9).jpg",
       "tested": false,
-      "featured": false,
-      "slug": "toxin-16x",
-      "url": "/resource-packs/toxin-16x/"
+      "featured": false
     },
     {
       "name": "!          §5§l§oWheezy §6§l§o16x §5§l§o[NORMAL SWORDS]",
@@ -19,9 +17,7 @@
       "description": null,
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Pack/!          §5§l§oWheezy §6§l§o16x §5§l§o[NORMAL SWORDS]/banner%20(7).jpg",
       "tested": false,
-      "featured": false,
-      "slug": "wheezy-16x-normal-swords",
-      "url": "/resource-packs/wheezy-16x-normal-swords/"
+      "featured": false
     },
     {
       "name": "0§KII §5§lPurple §5Night §0§KII",
@@ -30,9 +26,7 @@
       "description": null,
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Pack/0§KII §5§lPurple §5Night §0§KII/banner%20(10).jpg",
       "tested": false,
-      "featured": false,
-      "slug": "0-ii-purple-night-ii",
-      "url": "/resource-packs/0-ii-purple-night-ii/"
+      "featured": false
     },
     {
       "name": "4sangre",
@@ -41,9 +35,7 @@
       "description": "سازگار با نسخه 1.21 به بالا",
       "icon": null,
       "tested": false,
-      "featured": false,
-      "slug": "4sangre",
-      "url": "/resource-packs/4sangre/"
+      "featured": false
     },
     {
       "name": "Akatsuki",
@@ -52,9 +44,7 @@
       "description": "سازگار با نسخه 1.21 به بالا",
       "icon": null,
       "tested": true,
-      "featured": false,
-      "slug": "akatsuki",
-      "url": "/resource-packs/akatsuki/"
+      "featured": false
     },
     {
       "name": "Batman",
@@ -63,9 +53,7 @@
       "description": "سازگار با نسخه 1.21 به بالا",
       "icon": null,
       "tested": false,
-      "featured": false,
-      "slug": "batman",
-      "url": "/resource-packs/batman/"
+      "featured": false
     },
     {
       "name": "Danyplayz",
@@ -74,9 +62,7 @@
       "description": "بدراک 1.21 به بالا",
       "icon": null,
       "tested": true,
-      "featured": true,
-      "slug": "danyplayz",
-      "url": "/resource-packs/danyplayz/"
+      "featured": true
     },
     {
       "name": "Fat cat",
@@ -85,9 +71,7 @@
       "description": "سازگار با نسخه 1.21 به بالا",
       "icon": null,
       "tested": true,
-      "featured": true,
-      "slug": "fat-cat",
-      "url": "/resource-packs/fat-cat/"
+      "featured": true
     },
     {
       "name": "Jason voorhees",
@@ -96,9 +80,7 @@
       "description": "سازگار با نسخه 1.21 به بالا",
       "icon": null,
       "tested": true,
-      "featured": false,
-      "slug": "jason-voorhees",
-      "url": "/resource-packs/jason-voorhees/"
+      "featured": false
     },
     {
       "name": "Kepler",
@@ -107,9 +89,7 @@
       "description": "سازگار با نسخه 1.21 به بالا",
       "icon": null,
       "tested": true,
-      "featured": false,
-      "slug": "kepler",
-      "url": "/resource-packs/kepler/"
+      "featured": false
     },
     {
       "name": "Lyrian",
@@ -118,9 +98,7 @@
       "description": "بدراک 1.21 به بالا",
       "icon": null,
       "tested": false,
-      "featured": false,
-      "slug": "lyrian",
-      "url": "/resource-packs/lyrian/"
+      "featured": false
     },
     {
       "name": "POLAR WIND",
@@ -129,9 +107,7 @@
       "description": null,
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Pack/POLAR%20WIND/banner.jpg",
       "tested": false,
-      "featured": false,
-      "slug": "polar-wind",
-      "url": "/resource-packs/polar-wind/"
+      "featured": false
     },
     {
       "name": "Polar Wind",
@@ -140,9 +116,7 @@
       "description": null,
       "icon": null,
       "tested": false,
-      "featured": false,
-      "slug": "polar-wind-2",
-      "url": "/resource-packs/polar-wind-2/"
+      "featured": false
     },
     {
       "name": "Ranked  Faith",
@@ -151,9 +125,7 @@
       "description": null,
       "icon": null,
       "tested": false,
-      "featured": false,
-      "slug": "ranked-faith",
-      "url": "/resource-packs/ranked-faith/"
+      "featured": false
     },
     {
       "name": "Rigel",
@@ -162,9 +134,7 @@
       "description": "سازگار با نسخه 1.21 به بالا",
       "icon": null,
       "tested": false,
-      "featured": false,
-      "slug": "rigel",
-      "url": "/resource-packs/rigel/"
+      "featured": false
     },
     {
       "name": "Ry pack 133",
@@ -173,9 +143,7 @@
       "description": null,
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Pack/Ry%20pack%20133/IMG_20260806_170642_387.jpg",
       "tested": false,
-      "featured": false,
-      "slug": "ry-pack-133",
-      "url": "/resource-packs/ry-pack-133/"
+      "featured": false
     },
     {
       "name": "Sunflower",
@@ -184,9 +152,7 @@
       "description": "سازگار با نسخه 1.21 به بالا",
       "icon": null,
       "tested": true,
-      "featured": false,
-      "slug": "sunflower",
-      "url": "/resource-packs/sunflower/"
+      "featured": false
     },
     {
       "name": "Tangerine - SamStrix 5K Texture Pack",
@@ -195,9 +161,7 @@
       "description": null,
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Pack/Tangerine%20-%20SamStrix%205K%20Texture%20Pack/2022-08-19_12.05.02.png.jpg",
       "tested": false,
-      "featured": false,
-      "slug": "tangerine---samstrix-5k-texture-pack",
-      "url": "/resource-packs/tangerine---samstrix-5k-texture-pack/"
+      "featured": false
     },
     {
       "name": "Tangerine",
@@ -206,9 +170,7 @@
       "description": "سازگار با نسخه 1.21 به بالا",
       "icon": null,
       "tested": false,
-      "featured": false,
-      "slug": "tangerine",
-      "url": "/resource-packs/tangerine/"
+      "featured": false
     },
     {
       "name": "Tlaloc",
@@ -217,9 +179,7 @@
       "description": "سازگار با نسخه 1.21 به بالا",
       "icon": null,
       "tested": false,
-      "featured": false,
-      "slug": "tlaloc",
-      "url": "/resource-packs/tlaloc/"
+      "featured": false
     },
     {
       "name": "Todoroki",
@@ -228,9 +188,7 @@
       "description": "سازگار با نسخه 1.21 به بالا",
       "icon": null,
       "tested": false,
-      "featured": false,
-      "slug": "todoroki",
-      "url": "/resource-packs/todoroki/"
+      "featured": false
     },
     {
       "name": "Venom",
@@ -239,9 +197,7 @@
       "description": "سازگار با نسخه 1.21 به بالا",
       "icon": null,
       "tested": false,
-      "featured": false,
-      "slug": "venom",
-      "url": "/resource-packs/venom/"
+      "featured": false
     },
     {
       "name": "Waish",
@@ -250,9 +206,7 @@
       "description": null,
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Pack/Waish/packtl%20copy.jpg.jpg",
       "tested": false,
-      "featured": false,
-      "slug": "waish",
-      "url": "/resource-packs/waish/"
+      "featured": false
     },
     {
       "name": "low on fire",
@@ -261,9 +215,7 @@
       "description": "26.1\r\n کوچک کردن انیمیشن اتش در مواقع سوختن",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Pack/low%20on%20fire/2b55a22edb056644e597287e34b0fe6cf0400ba6_1.webp",
       "tested": false,
-      "featured": false,
-      "slug": "low-on-fire",
-      "url": "/resource-packs/low-on-fire/"
+      "featured": false
     },
     {
       "name": "mysmce abyss",
@@ -272,9 +224,7 @@
       "description": "ریسورس پک بدوارز و پی وی پی میستی abyss 16x",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Pack/mysmce%20abyss/pack.png",
       "tested": true,
-      "featured": false,
-      "slug": "mysmce-abyss",
-      "url": "/resource-packs/mysmce-abyss/"
+      "featured": false
     },
     {
       "name": "mysmce nimbus",
@@ -283,9 +233,7 @@
       "description": "ریسورس پک جذاب بدوارز و pvp میستی nimbus 64x",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Pack/mysmce%20nimbus/pack.png",
       "tested": true,
-      "featured": false,
-      "slug": "mysmce-nimbus",
-      "url": "/resource-packs/mysmce-nimbus/"
+      "featured": false
     },
     {
       "name": "vTxg",
@@ -294,9 +242,7 @@
       "description": "ریسورس پک تاریک و دارک برای پی وی پی \r\nبدراک ۱.۲۱ به بالا",
       "icon": null,
       "tested": true,
-      "featured": true,
-      "slug": "vtxg",
-      "url": "/resource-packs/vtxg/"
+      "featured": true
     },
     {
       "name": "zion 8x V2",
@@ -305,9 +251,7 @@
       "description": "بدراک 1.21 به بالا",
       "icon": null,
       "tested": true,
-      "featured": true,
-      "slug": "zion-8x-v2",
-      "url": "/resource-packs/zion-8x-v2/"
+      "featured": true
     },
     {
       "name": "استرلا",
@@ -316,9 +260,7 @@
       "description": "بدراک 1.21 به بالا",
       "icon": null,
       "tested": true,
-      "featured": true,
-      "slug": "استرلا",
-      "url": "/resource-packs/استرلا/"
+      "featured": true
     },
     {
       "name": "اکشن اند استاف 1.3",
@@ -327,9 +269,7 @@
       "description": "بدراک 1.21.51 به بالا \r\nمناسب برای smp و رول پلی",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Pack/اکشن اند استاف 1.3/actionsandstuff_Thumbnail_0-1.jpg",
       "tested": true,
-      "featured": true,
-      "slug": "اکشن-اند-استاف-1-3",
-      "url": "/resource-packs/اکشن-اند-استاف-1-3/"
+      "featured": true
     },
     {
       "name": "دویر 70k",
@@ -338,9 +278,7 @@
       "description": "ریسور پک بدوارز دویر   1.8.9",
       "icon": null,
       "tested": false,
-      "featured": false,
-      "slug": "دویر-70k",
-      "url": "/resource-packs/دویر-70k/"
+      "featured": false
     },
     {
       "name": "همکاری ویش و دسی 2",
@@ -349,9 +287,7 @@
       "description": "ریسورس پک کلب ویش و دسی مخصوص بدوارز با نوشته رنگ پشم برای افراد کوررنگ",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Pack/همکاری ویش و دسی 2/pack.png",
       "tested": true,
-      "featured": false,
-      "slug": "همکاری-ویش-و-دسی-2",
-      "url": "/resource-packs/همکاری-ویش-و-دسی-2/"
+      "featured": false
     }
   ],
   "mods": [
@@ -362,9 +298,7 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/(مود انمیشن ماینکرافت) Smooth moves/IMG_20261012_201307_829.jpg",
       "tested": true,
-      "featured": true,
-      "slug": "مود-انمیشن-ماینکرافت-smooth-moves",
-      "url": "/mods/مود-انمیشن-ماینکرافت-smooth-moves/"
+      "featured": true
     },
     {
       "name": "1000ماموریت",
@@ -373,9 +307,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/1000ماموریت/photo_2026-07-23_09-15-54.jpg",
       "tested": true,
-      "featured": true,
-      "slug": "1000ماموریت",
-      "url": "/mods/1000ماموریت/"
+      "featured": true
     },
     {
       "name": "Fabric Api",
@@ -384,9 +316,7 @@
       "compatibility": "سازگار با جاوا",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/Fabric%20Api/images.png",
       "tested": true,
-      "featured": true,
-      "slug": "fabric-api",
-      "url": "/mods/fabric-api/"
+      "featured": true
     },
     {
       "name": "Lucky-SkyBlock",
@@ -395,9 +325,7 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/Lucky-SkyBlock/com.StusioCraftStudio.LuckySkyBlock_444bdf4d-51f9-4afd-812e-53235a2ab064.png",
       "tested": true,
-      "featured": true,
-      "slug": "lucky-skyblock",
-      "url": "/mods/lucky-skyblock/"
+      "featured": true
     },
     {
       "name": "Physics (فیزیک ماینکرافت )",
@@ -406,9 +334,7 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/Physics (فیزیک ماینکرافت )/Screenshot_۲۰۲۶۱۰۰۷-۲۱۴۴۱۰_Video Player.jpg",
       "tested": true,
-      "featured": true,
-      "slug": "physics-فیزیک-ماینکرافت",
-      "url": "/mods/physics-فیزیک-ماینکرافت/"
+      "featured": true
     },
     {
       "name": "automobility (خودرو)",
@@ -417,9 +343,7 @@
       "compatibility": "سازگار با جاوا",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/automobility (خودرو)/638352189201716584.png",
       "tested": true,
-      "featured": true,
-      "slug": "automobility-خودرو",
-      "url": "/mods/automobility-خودرو/"
+      "featured": true
     },
     {
       "name": "continuity",
@@ -428,9 +352,7 @@
       "compatibility": "سازگار با جاوا",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/continuity/images%20(1).jpg",
       "tested": true,
-      "featured": false,
-      "slug": "continuity",
-      "url": "/mods/continuity/"
+      "featured": false
     },
     {
       "name": "create",
@@ -439,9 +361,7 @@
       "compatibility": "جاوا",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/create/icon.png",
       "tested": false,
-      "featured": false,
-      "slug": "create",
-      "url": "/mods/create/"
+      "featured": false
     },
     {
       "name": "آرمور های ماب ها",
@@ -450,9 +370,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/آرمور های ماب ها/photo_2026-07-23_09-16-49.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "آرمور-های-ماب-ها",
-      "url": "/mods/آرمور-های-ماب-ها/"
+      "featured": false
     },
     {
       "name": "آزمایشگاه ترکیب ماب",
@@ -461,9 +379,7 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/آزمایشگاه ترکیب ماب/photo_2026-01-31_21-21-08.jpg",
       "tested": true,
-      "featured": true,
-      "slug": "آزمایشگاه-ترکیب-ماب",
-      "url": "/mods/آزمایشگاه-ترکیب-ماب/"
+      "featured": true
     },
     {
       "name": "آیرون من",
@@ -472,9 +388,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/آیرون من/photo_2026-07-21_14-23-46.jpg",
       "tested": false,
-      "featured": false,
-      "slug": "آیرون-من",
-      "url": "/mods/آیرون-من/"
+      "featured": false
     },
     {
       "name": "ارابه های خفن (horse carts )",
@@ -483,9 +397,7 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/ارابه های خفن (horse carts )/horse-carts-addon-thumbnail-png.png",
       "tested": false,
-      "featured": false,
-      "slug": "ارابه-های-خفن-horse-carts",
-      "url": "/mods/ارابه-های-خفن-horse-carts/"
+      "featured": false
     },
     {
       "name": "استراکچر های جدید",
@@ -494,9 +406,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/استراکچر های جدید/photo_2026-08-14_10-09-20.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "استراکچر-های-جدید",
-      "url": "/mods/استراکچر-های-جدید/"
+      "featured": false
     },
     {
       "name": "اسلندرمن",
@@ -505,9 +415,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/اسلندرمن/photo_2026-08-12_17-02-10.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "اسلندرمن",
-      "url": "/mods/اسلندرمن/"
+      "featured": false
     },
     {
       "name": "اسکای بلاک ماب های جهش یافته",
@@ -516,9 +424,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/اسکای بلاک ماب های جهش یافته/photo_2026-08-13_05-41-30.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "اسکای-بلاک-ماب-های-جهش-یافته",
-      "url": "/mods/اسکای-بلاک-ماب-های-جهش-یافته/"
+      "featured": false
     },
     {
       "name": "اسکیل پوینت های جدید",
@@ -527,9 +433,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/اسکیل پوینت های جدید/photo_2026-07-23_09-14-13.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "اسکیل-پوینت-های-جدید",
-      "url": "/mods/اسکیل-پوینت-های-جدید/"
+      "featured": false
     },
     {
       "name": "انواع اسلحه",
@@ -538,9 +442,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/انواع اسلحه/photo_2026-07-21_14-08-42.jpg",
       "tested": false,
-      "featured": false,
-      "slug": "انواع-اسلحه",
-      "url": "/mods/انواع-اسلحه/"
+      "featured": false
     },
     {
       "name": "انواع اژدها",
@@ -549,9 +451,7 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/انواع اژدها/IMG_20260720_153702_114.jpg",
       "tested": false,
-      "featured": false,
-      "slug": "انواع-اژدها",
-      "url": "/mods/انواع-اژدها/"
+      "featured": false
     },
     {
       "name": "انواع ماب های ترسناک جهش یافته برای",
@@ -560,9 +460,7 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/انواع ماب های ترسناک جهش یافته برای/IMG_20260720_153555_209.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "انواع-ماب-های-ترسناک-جهش-یافته-برای",
-      "url": "/mods/انواع-ماب-های-ترسناک-جهش-یافته-برای/"
+      "featured": false
     },
     {
       "name": "انواع هواپیما و هلیکوپتر",
@@ -571,9 +469,7 @@
       "compatibility": "سازگار با جاوا",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/انواع هواپیما و هلیکوپتر/images.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "انواع-هواپیما-و-هلیکوپتر",
-      "url": "/mods/انواع-هواپیما-و-هلیکوپتر/"
+      "featured": false
     },
     {
       "name": "انواع وسیله نقلیه",
@@ -582,9 +478,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/انواع وسیله نقلیه/photo_2026-07-21_13-56-35.jpg",
       "tested": false,
-      "featured": false,
-      "slug": "انواع-وسیله-نقلیه",
-      "url": "/mods/انواع-وسیله-نقلیه/"
+      "featured": false
     },
     {
       "name": "انواع پل",
@@ -593,9 +487,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/انواع پل/photo_2026-08-12_16-53-04.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "انواع-پل",
-      "url": "/mods/انواع-پل/"
+      "featured": false
     },
     {
       "name": "انواع کریپر",
@@ -604,9 +496,7 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/انواع کریپر/photo_2024-12-14_19-40-18.jpg",
       "tested": false,
-      "featured": false,
-      "slug": "انواع-کریپر",
-      "url": "/mods/انواع-کریپر/"
+      "featured": false
     },
     {
       "name": "انگل های کودک",
@@ -615,9 +505,7 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/انگل های کودک/baby-parasites-png.png",
       "tested": true,
-      "featured": true,
-      "slug": "انگل-های-کودک",
-      "url": "/mods/انگل-های-کودک/"
+      "featured": true
     },
     {
       "name": "اکشن اند استاف 1.3",
@@ -626,9 +514,7 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/اکشن اند استاف 1.3/actionsandstuff_Thumbnail_0-1.jpg",
       "tested": true,
-      "featured": true,
-      "slug": "اکشن-اند-استاف-1-3",
-      "url": "/mods/اکشن-اند-استاف-1-3/"
+      "featured": true
     },
     {
       "name": "اکشن اند استاف نسخه 1.11",
@@ -637,9 +523,7 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/اکشن اند استاف نسخه 1.11/70890379-6537-l__2672.jpg",
       "tested": true,
-      "featured": true,
-      "slug": "اکشن-اند-استاف-نسخه-1-11",
-      "url": "/mods/اکشن-اند-استاف-نسخه-1-11/"
+      "featured": true
     },
     {
       "name": "اکشن اند استاف نسخه 1.12",
@@ -648,9 +532,7 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/اکشن اند استاف نسخه 1.12/IMG_20261007_120107_236-768x432.webp",
       "tested": true,
-      "featured": true,
-      "slug": "اکشن-اند-استاف-نسخه-1-12",
-      "url": "/mods/اکشن-اند-استاف-نسخه-1-12/"
+      "featured": true
     },
     {
       "name": "اکشن اند استاف نسخه 1.13 (جدید ترین نسخه )",
@@ -659,9 +541,7 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/اکشن اند استاف نسخه 1.13 (جدید ترین نسخه )/actionsandstuff_Thumbnail_0-1.jpg",
       "tested": true,
-      "featured": true,
-      "slug": "اکشن-اند-استاف-نسخه-1-13-جدید-ترین-نسخه",
-      "url": "/mods/اکشن-اند-استاف-نسخه-1-13-جدید-ترین-نسخه/"
+      "featured": true
     },
     {
       "name": "بطری زمانی یا تمپورال (temporal bottle)",
@@ -670,9 +550,7 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/بطری زمانی یا تمپورال (temporal bottle)/Screenshot_۲۰۲۶۱۰۳۰-۰۹۰۴۱۴_Gallery.jpg",
       "tested": false,
-      "featured": false,
-      "slug": "بطری-زمانی-یا-تمپورال-temporal-bottle",
-      "url": "/mods/بطری-زمانی-یا-تمپورال-temporal-bottle/"
+      "featured": false
     },
     {
       "name": "بلاک جادویی",
@@ -681,9 +559,7 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/بلاک جادویی/photo_2026-08-14_09-50-25.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "بلاک-جادویی",
-      "url": "/mods/بلاک-جادویی/"
+      "featured": false
     },
     {
       "name": "بوگاتی ویرون",
@@ -692,9 +568,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/بوگاتی ویرون/photo_2026-07-21_14-06-22.jpg",
       "tested": false,
-      "featured": false,
-      "slug": "بوگاتی-ویرون",
-      "url": "/mods/بوگاتی-ویرون/"
+      "featured": false
     },
     {
       "name": "تبدیل روستا به شهر",
@@ -703,9 +577,7 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/تبدیل روستا به شهر/IMG_20260720_152029_158.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "تبدیل-روستا-به-شهر",
-      "url": "/mods/تبدیل-روستا-به-شهر/"
+      "featured": false
     },
     {
       "name": "تبدیل شدن به ماب ها",
@@ -714,9 +586,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/تبدیل شدن به ماب ها/photo_2026-07-21_14-21-19.jpg",
       "tested": false,
-      "featured": false,
-      "slug": "تبدیل-شدن-به-ماب-ها",
-      "url": "/mods/تبدیل-شدن-به-ماب-ها/"
+      "featured": false
     },
     {
       "name": "تفنگ لیزری",
@@ -725,9 +595,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/تفنگ لیزری/photo_2026-07-21_14-03-47.jpg",
       "tested": false,
-      "featured": false,
-      "slug": "تفنگ-لیزری",
-      "url": "/mods/تفنگ-لیزری/"
+      "featured": false
     },
     {
       "name": "توتم های قابل ساخت",
@@ -736,9 +604,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/توتم های قابل ساخت/photo_2026-08-13_05-45-56.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "توتم-های-قابل-ساخت",
-      "url": "/mods/توتم-های-قابل-ساخت/"
+      "featured": false
     },
     {
       "name": "تورچ در دست چپ",
@@ -747,9 +613,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/تورچ در دست چپ/photo_2026-07-23_09-07-21.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "تورچ-در-دست-چپ",
-      "url": "/mods/تورچ-در-دست-چپ/"
+      "featured": false
     },
     {
       "name": "تورچ دست چپ",
@@ -758,9 +622,7 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/تورچ دست چپ/Screenshot%20(413).png",
       "tested": false,
-      "featured": false,
-      "slug": "تورچ-دست-چپ",
-      "url": "/mods/تورچ-دست-چپ/"
+      "featured": false
     },
     {
       "name": "تکسچرپک جدید و بسیار خفن برای  بدوارز و پی وی پی",
@@ -769,9 +631,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/تکسچرپک جدید و بسیار خفن برای  بدوارز و پی وی پی/photo_2026-07-23_09-16-09.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "تکسچرپک-جدید-و-بسیار-خفن-برای-بدوارز-و-پی-وی-پی",
-      "url": "/mods/تکسچرپک-جدید-و-بسیار-خفن-برای-بدوارز-و-پی-وی-پی/"
+      "featured": false
     },
     {
       "name": "تی ان تی های جدید",
@@ -780,9 +640,7 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/تی ان تی های جدید/photo_2026-08-14_11-05-57.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "تی-ان-تی-های-جدید",
-      "url": "/mods/تی-ان-تی-های-جدید/"
+      "featured": false
     },
     {
       "name": "جاودانگی سگ",
@@ -791,9 +649,7 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/جاودانگی سگ/mcpedl-jpg.jpg",
       "tested": false,
-      "featured": false,
-      "slug": "جاودانگی-سگ",
-      "url": "/mods/جاودانگی-سگ/"
+      "featured": false
     },
     {
       "name": "جت پک",
@@ -802,9 +658,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/جت پک/photo_2026-07-21_14-10-16.jpg",
       "tested": false,
-      "featured": false,
-      "slug": "جت-پک",
-      "url": "/mods/جت-پک/"
+      "featured": false
     },
     {
       "name": "خونه های زیبا و قابل ساخت در کرفتینگ",
@@ -813,9 +667,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/خونه های زیبا و قابل ساخت در کرفتینگ/photo_2026-08-12_16-55-17.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "خونه-های-زیبا-و-قابل-ساخت-در-کرفتینگ",
-      "url": "/mods/خونه-های-زیبا-و-قابل-ساخت-در-کرفتینگ/"
+      "featured": false
     },
     {
       "name": "دایمنشن های جدید اور ها",
@@ -824,9 +676,7 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/دایمنشن های جدید اور ها/oredim.png",
       "tested": false,
-      "featured": false,
-      "slug": "دایمنشن-های-جدید-اور-ها",
-      "url": "/mods/دایمنشن-های-جدید-اور-ها/"
+      "featured": false
     },
     {
       "name": "درخت ها میوه میدن",
@@ -835,9 +685,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/درخت ها میوه میدن/photo_2026-08-12_16-59-21.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "درخت-ها-میوه-میدن",
-      "url": "/mods/درخت-ها-میوه-میدن/"
+      "featured": false
     },
     {
       "name": "دستگاه های ردستونی پیشرفته",
@@ -846,9 +694,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/دستگاه های ردستونی پیشرفته/photo_2026-07-21_13-46-19.jpg",
       "tested": false,
-      "featured": false,
-      "slug": "دستگاه-های-ردستونی-پیشرفته",
-      "url": "/mods/دستگاه-های-ردستونی-پیشرفته/"
+      "featured": false
     },
     {
       "name": "ردیاب آور ها",
@@ -857,9 +703,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/ردیاب آور ها/photo_2026-07-23_15-16-27.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "ردیاب-آور-ها",
-      "url": "/mods/ردیاب-آور-ها/"
+      "featured": false
     },
     {
       "name": "ساخت اتاق گیمینگ و وسایل گیمینگ",
@@ -868,9 +712,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/ساخت اتاق گیمینگ و وسایل گیمینگ/photo_2026-07-21_10-50-00.jpg",
       "tested": true,
-      "featured": true,
-      "slug": "ساخت-اتاق-گیمینگ-و-وسایل-گیمینگ",
-      "url": "/mods/ساخت-اتاق-گیمینگ-و-وسایل-گیمینگ/"
+      "featured": true
     },
     {
       "name": "ساخت ماشین",
@@ -879,9 +721,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/ساخت ماشین/photo_2026-07-23_09-13-14.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "ساخت-ماشین",
-      "url": "/mods/ساخت-ماشین/"
+      "featured": false
     },
     {
       "name": "سروایوال در حباب (bio dame)",
@@ -890,9 +730,7 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/سروایوال در حباب (bio dame)/photo_2026-08-02_02-27-18.jpg",
       "tested": true,
-      "featured": true,
-      "slug": "سروایوال-در-حباب-bio-dame",
-      "url": "/mods/سروایوال-در-حباب-bio-dame/"
+      "featured": true
     },
     {
       "name": "سپر های لجندی و بسیار قدرتمند",
@@ -901,9 +739,7 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/سپر های لجندی و بسیار قدرتمند/photo_2026-08-13_21-33-06.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "سپر-های-لجندی-و-بسیار-قدرتمند",
-      "url": "/mods/سپر-های-لجندی-و-بسیار-قدرتمند/"
+      "featured": false
     },
     {
       "name": "سگ جاودانه",
@@ -912,9 +748,7 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/سگ جاودانه/photo_2026-08-13_22-04-44.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "سگ-جاودانه",
-      "url": "/mods/سگ-جاودانه/"
+      "featured": false
     },
     {
       "name": "سیب های جدید",
@@ -923,9 +757,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/سیب های جدید/photo_2026-08-13_05-47-19.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "سیب-های-جدید",
-      "url": "/mods/سیب-های-جدید/"
+      "featured": false
     },
     {
       "name": "فارم های جدید",
@@ -934,9 +766,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/فارم های جدید/photo_2026-08-12_16-45-37.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "فارم-های-جدید",
-      "url": "/mods/فارم-های-جدید/"
+      "featured": false
     },
     {
       "name": "فناف",
@@ -945,9 +775,7 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/فناف/Screenshot_۲۰۲۶۱۰۲۲-۰۸۵۵۳۷_Gallery.jpg",
       "tested": false,
-      "featured": false,
-      "slug": "فناف",
-      "url": "/mods/فناف/"
+      "featured": false
     },
     {
       "name": "قطار های جدید",
@@ -956,9 +784,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/قطار های جدید/photo_2026-08-13_05-49-51.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "قطار-های-جدید",
-      "url": "/mods/قطار-های-جدید/"
+      "featured": false
     },
     {
       "name": "لاکی بلاک",
@@ -967,9 +793,7 @@
       "compatibility": "سازگار با جاوا",
       "icon": null,
       "tested": true,
-      "featured": false,
-      "slug": "لاکی-بلاک",
-      "url": "/mods/لاکی-بلاک/"
+      "featured": false
     },
     {
       "name": "لوازم خانگی",
@@ -978,9 +802,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/لوازم خانگی/photo_2026-07-21_13-55-12.jpg",
       "tested": false,
-      "featured": false,
-      "slug": "لوازم-خانگی",
-      "url": "/mods/لوازم-خانگی/"
+      "featured": false
     },
     {
       "name": "ماب فارم ها",
@@ -989,9 +811,7 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/ماب فارم ها/photo_2026-08-13_05-48-22.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "ماب-فارم-ها",
-      "url": "/mods/ماب-فارم-ها/"
+      "featured": false
     },
     {
       "name": "ماب های جهش یافته",
@@ -1000,9 +820,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/ماب های جهش یافته/photo_2026-08-17_08-44-17.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "ماب-های-جهش-یافته",
-      "url": "/mods/ماب-های-جهش-یافته/"
+      "featured": false
     },
     {
       "name": "ماشین 405",
@@ -1011,9 +829,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/ماشین 405/photo_2026-07-21_13-52-48.jpg",
       "tested": false,
-      "featured": false,
-      "slug": "ماشین-405",
-      "url": "/mods/ماشین-405/"
+      "featured": false
     },
     {
       "name": "ماشین بی ام و",
@@ -1022,9 +838,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/ماشین بی ام و/photo_2026-07-21_14-12-47.jpg",
       "tested": false,
-      "featured": false,
-      "slug": "ماشین-بی-ام-و",
-      "url": "/mods/ماشین-بی-ام-و/"
+      "featured": false
     },
     {
       "name": "ماشین سمند سورن",
@@ -1033,9 +847,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/ماشین سمند سورن/photo_2026-07-21_14-19-12.jpg",
       "tested": false,
-      "featured": false,
-      "slug": "ماشین-سمند-سورن",
-      "url": "/mods/ماشین-سمند-سورن/"
+      "featured": false
     },
     {
       "name": "ماشین های دوج",
@@ -1044,9 +856,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/ماشین های دوج/photo_2026-07-23_09-16-36.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "ماشین-های-دوج",
-      "url": "/mods/ماشین-های-دوج/"
+      "featured": false
     },
     {
       "name": "ماشین های سوپر کارز",
@@ -1055,9 +865,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/ماشین های سوپر کارز/photo_2026-07-23_08-59-51.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "ماشین-های-سوپر-کارز",
-      "url": "/mods/ماشین-های-سوپر-کارز/"
+      "featured": false
     },
     {
       "name": "ماشین پژو پارس",
@@ -1066,9 +874,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/ماشین پژو پارس/photo_2026-07-21_14-24-15.jpg",
       "tested": false,
-      "featured": false,
-      "slug": "ماشین-پژو-پارس",
-      "url": "/mods/ماشین-پژو-پارس/"
+      "featured": false
     },
     {
       "name": "مبلمان ماب ها",
@@ -1077,9 +883,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/مبلمان ماب ها/photo_2026-07-23_08-57-48.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "مبلمان-ماب-ها",
-      "url": "/mods/مبلمان-ماب-ها/"
+      "featured": false
     },
     {
       "name": "مود اسکای بلاک در کهکشان",
@@ -1088,9 +892,7 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/مود اسکای بلاک در کهکشان/photo_2026-02-22_15-48-16.jpg",
       "tested": true,
-      "featured": true,
-      "slug": "مود-اسکای-بلاک-در-کهکشان",
-      "url": "/mods/مود-اسکای-بلاک-در-کهکشان/"
+      "featured": true
     },
     {
       "name": "مود امنیتی",
@@ -1099,9 +901,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/مود امنیتی/photo_2026-07-21_14-15-37.jpg",
       "tested": false,
-      "featured": false,
-      "slug": "مود-امنیتی",
-      "url": "/mods/مود-امنیتی/"
+      "featured": false
     },
     {
       "name": "مود انواع آیرون گولم",
@@ -1110,9 +910,7 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/مود انواع آیرون گولم/9f19bb8e-083a-43d1-974f-cf4377ec68ec.png",
       "tested": false,
-      "featured": false,
-      "slug": "مود-انواع-آیرون-گولم",
-      "url": "/mods/مود-انواع-آیرون-گولم/"
+      "featured": false
     },
     {
       "name": "مود انواع سوپر مارکت برای ماینکرافت",
@@ -1121,9 +919,7 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/مود انواع سوپر مارکت برای ماینکرافت/IMG_20260720_152114_714.jpg",
       "tested": false,
-      "featured": false,
-      "slug": "مود-انواع-سوپر-مارکت-برای-ماینکرافت",
-      "url": "/mods/مود-انواع-سوپر-مارکت-برای-ماینکرافت/"
+      "featured": false
     },
     {
       "name": "مود انواع میم",
@@ -1132,9 +928,7 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/مود انواع میم/photo_2026-07-07_12-49-55%20(1).jpg",
       "tested": true,
-      "featured": false,
-      "slug": "مود-انواع-میم",
-      "url": "/mods/مود-انواع-میم/"
+      "featured": false
     },
     {
       "name": "مود بن تن",
@@ -1143,9 +937,7 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/مود بن تن/photo_2026-07-07_12-49-55.jpg",
       "tested": false,
-      "featured": false,
-      "slug": "مود-بن-تن",
-      "url": "/mods/مود-بن-تن/"
+      "featured": false
     },
     {
       "name": "مود ترسناک و جدید امروزی hors.jar",
@@ -1154,9 +946,7 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/مود ترسناک و جدید امروزی hors.jar/Screenshot%20(401).png",
       "tested": true,
-      "featured": false,
-      "slug": "مود-ترسناک-و-جدید-امروزی-hors-jar",
-      "url": "/mods/مود-ترسناک-و-جدید-امروزی-hors-jar/"
+      "featured": false
     },
     {
       "name": "مود خفن و جذاب پارکور ماری",
@@ -1165,9 +955,7 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/مود خفن و جذاب پارکور ماری/IMG_20260709_225520_068.jpg",
       "tested": true,
-      "featured": true,
-      "slug": "مود-خفن-و-جذاب-پارکور-ماری",
-      "url": "/mods/مود-خفن-و-جذاب-پارکور-ماری/"
+      "featured": true
     },
     {
       "name": "مود ساخت شهر",
@@ -1176,9 +964,7 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/مود ساخت شهر/IMG_20260720_153958_484.jpg",
       "tested": false,
-      "featured": false,
-      "slug": "مود-ساخت-شهر",
-      "url": "/mods/مود-ساخت-شهر/"
+      "featured": false
     },
     {
       "name": "مود سروایوال  دلقک های ترسناک",
@@ -1187,9 +973,7 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/مود سروایوال  دلقک های ترسناک/photo_2026-07-07_18-24-49.jpg",
       "tested": false,
-      "featured": false,
-      "slug": "مود-سروایوال-دلقک-های-ترسناک",
-      "url": "/mods/مود-سروایوال-دلقک-های-ترسناک/"
+      "featured": false
     },
     {
       "name": "مود سروایوال با آدم فضایی 2",
@@ -1198,9 +982,7 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/مود سروایوال با آدم فضایی 2/photo_2026-07-23_17-50-12.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "مود-سروایوال-با-آدم-فضایی-2",
-      "url": "/mods/مود-سروایوال-با-آدم-فضایی-2/"
+      "featured": false
     },
     {
       "name": "مود سروایوال با آدم فضایی",
@@ -1209,9 +991,7 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/مود سروایوال با آدم فضایی/photo_2026-07-23_17-50-12.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "مود-سروایوال-با-آدم-فضایی",
-      "url": "/mods/مود-سروایوال-با-آدم-فضایی/"
+      "featured": false
     },
     {
       "name": "مود سونیک",
@@ -1220,9 +1000,7 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/مود سونیک/photo_2025-01-07_22-31-18.jpg",
       "tested": false,
-      "featured": false,
-      "slug": "مود-سونیک",
-      "url": "/mods/مود-سونیک/"
+      "featured": false
     },
     {
       "name": "مود شهر بازی",
@@ -1231,9 +1009,7 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/مود شهر بازی/photo_2026-07-15_22-56-13.jpg",
       "tested": false,
-      "featured": false,
-      "slug": "مود-شهر-بازی",
-      "url": "/mods/مود-شهر-بازی/"
+      "featured": false
     },
     {
       "name": "مود فوتبال برای ماینکرافت",
@@ -1242,9 +1018,7 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/مود فوتبال برای ماینکرافت/photo_2026-07-13_22-06-35%20(1).jpg",
       "tested": true,
-      "featured": false,
-      "slug": "مود-فوتبال-برای-ماینکرافت",
-      "url": "/mods/مود-فوتبال-برای-ماینکرافت/"
+      "featured": false
     },
     {
       "name": "مود هکر",
@@ -1253,9 +1027,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/مود هکر/photo_2026-07-21_14-14-52.jpg",
       "tested": false,
-      "featured": false,
-      "slug": "مود-هکر",
-      "url": "/mods/مود-هکر/"
+      "featured": false
     },
     {
       "name": "مپ تمرینی بدوراز ( ورژن سبک تر )",
@@ -1264,9 +1036,7 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/مپ تمرینی بدوراز ( ورژن سبک تر )/mcpedl-jpg.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "مپ-تمرینی-بدوراز-ورژن-سبک-تر",
-      "url": "/mods/مپ-تمرینی-بدوراز-ورژن-سبک-تر/"
+      "featured": false
     },
     {
       "name": "مپ تمرینی بدوراز",
@@ -1275,9 +1045,7 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/مپ تمرینی بدوراز/mcpedl-jpg.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "مپ-تمرینی-بدوراز",
-      "url": "/mods/مپ-تمرینی-بدوراز/"
+      "featured": false
     },
     {
       "name": "مپ خفن و جذاب وان بلاک در اقیانوس",
@@ -1286,9 +1054,7 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/مپ خفن و جذاب وان بلاک در اقیانوس/Screenshot%20(408).png",
       "tested": true,
-      "featured": true,
-      "slug": "مپ-خفن-و-جذاب-وان-بلاک-در-اقیانوس",
-      "url": "/mods/مپ-خفن-و-جذاب-وان-بلاک-در-اقیانوس/"
+      "featured": true
     },
     {
       "name": "مپ وان بلاک",
@@ -1297,9 +1063,7 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/مپ وان بلاک/IMG_20260720_152011_850.jpg",
       "tested": false,
-      "featured": false,
-      "slug": "مپ-وان-بلاک",
-      "url": "/mods/مپ-وان-بلاک/"
+      "featured": false
     },
     {
       "name": "مینی بلاک",
@@ -1308,9 +1072,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/مینی بلاک/photo_2026-07-23_08-47-35.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "مینی-بلاک",
-      "url": "/mods/مینی-بلاک/"
+      "featured": false
     },
     {
       "name": "مینی ماب های بامزه",
@@ -1319,9 +1081,7 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/مینی ماب های بامزه/IMG_20260731_123101_293.jpg",
       "tested": true,
-      "featured": true,
-      "slug": "مینی-ماب-های-بامزه",
-      "url": "/mods/مینی-ماب-های-بامزه/"
+      "featured": true
     },
     {
       "name": "مینی مپ پیشرفته",
@@ -1330,9 +1090,7 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/مینی مپ پیشرفته/7e378fd5-a886-45e7-b279-79ccd1f9c097.jpeg",
       "tested": true,
-      "featured": true,
-      "slug": "مینی-مپ-پیشرفته",
-      "url": "/mods/مینی-مپ-پیشرفته/"
+      "featured": true
     },
     {
       "name": "هاردکور در سرزمین اژدهایان",
@@ -1341,9 +1099,7 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/هاردکور در سرزمین اژدهایان/maxresdefault.jpg",
       "tested": true,
-      "featured": true,
-      "slug": "هاردکور-در-سرزمین-اژدهایان",
-      "url": "/mods/هاردکور-در-سرزمین-اژدهایان/"
+      "featured": true
     },
     {
       "name": "هواپیما و هلیکوپتر",
@@ -1352,9 +1108,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/هواپیما و هلیکوپتر/photo_2026-07-21_10-43-02.jpg",
       "tested": false,
-      "featured": false,
-      "slug": "هواپیما-و-هلیکوپتر",
-      "url": "/mods/هواپیما-و-هلیکوپتر/"
+      "featured": false
     },
     {
       "name": "واقعی شدن ضربه زدن",
@@ -1363,9 +1117,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/واقعی شدن ضربه زدن/photo_2026-08-13_05-50-52.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "واقعی-شدن-ضربه-زدن",
-      "url": "/mods/واقعی-شدن-ضربه-زدن/"
+      "featured": false
     },
     {
       "name": "وان بلاک هاردکور",
@@ -1374,9 +1126,7 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/وان بلاک هاردکور/IMG_20260720_152011_850.jpg",
       "tested": false,
-      "featured": false,
-      "slug": "وان-بلاک-هاردکور",
-      "url": "/mods/وان-بلاک-هاردکور/"
+      "featured": false
     },
     {
       "name": "وریتی (ورژن اصلی)",
@@ -1385,9 +1135,7 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/وریتی (ورژن اصلی)/Screenshot%20(423).png",
       "tested": false,
-      "featured": false,
-      "slug": "وریتی-ورژن-اصلی",
-      "url": "/mods/وریتی-ورژن-اصلی/"
+      "featured": false
     },
     {
       "name": "وریتی فارسی",
@@ -1396,9 +1144,7 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/وریتی فارسی/photo_2026-08-17_08-38-33.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "وریتی-فارسی",
-      "url": "/mods/وریتی-فارسی/"
+      "featured": false
     },
     {
       "name": "وسایل  دخترانه",
@@ -1407,9 +1153,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/وسایل  دخترانه/photo_2026-07-23_08-30-08.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "وسایل-دخترانه",
-      "url": "/mods/وسایل-دخترانه/"
+      "featured": false
     },
     {
       "name": "وسایل بامبویی",
@@ -1418,9 +1162,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/وسایل بامبویی/photo_2026-07-23_09-03-23.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "وسایل-بامبویی",
-      "url": "/mods/وسایل-بامبویی/"
+      "featured": false
     },
     {
       "name": "وسایل های نظامی جدید",
@@ -1429,9 +1171,7 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/وسایل های نظامی جدید/photo_2026-08-14_09-51-43.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "وسایل-های-نظامی-جدید",
-      "url": "/mods/وسایل-های-نظامی-جدید/"
+      "featured": false
     },
     {
       "name": "وسایل پلیس",
@@ -1440,9 +1180,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/وسایل پلیس/photo_2026-07-23_09-01-52.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "وسایل-پلیس",
-      "url": "/mods/وسایل-پلیس/"
+      "featured": false
     },
     {
       "name": "ولیج های بزرگ تر و خیلی جذاب",
@@ -1451,9 +1189,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": null,
       "tested": true,
-      "featured": false,
-      "slug": "ولیج-های-بزرگ-تر-و-خیلی-جذاب",
-      "url": "/mods/ولیج-های-بزرگ-تر-و-خیلی-جذاب/"
+      "featured": false
     },
     {
       "name": "ویلیج های جدید",
@@ -1462,9 +1198,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/ویلیج های جدید/photo_2026-08-14_10-02-44.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "ویلیج-های-جدید",
-      "url": "/mods/ویلیج-های-جدید/"
+      "featured": false
     },
     {
       "name": "پختن آور ها در کمپ فایر",
@@ -1473,9 +1207,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/پختن آور ها در کمپ فایر/photo_2026-07-21_14-17-46.jpg",
       "tested": false,
-      "featured": false,
-      "slug": "پختن-آور-ها-در-کمپ-فایر",
-      "url": "/mods/پختن-آور-ها-در-کمپ-فایر/"
+      "featured": false
     },
     {
       "name": "پراید اسپورت",
@@ -1484,9 +1216,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/پراید اسپورت/photo_2026-08-06_22-36-32.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "پراید-اسپورت",
-      "url": "/mods/پراید-اسپورت/"
+      "featured": false
     },
     {
       "name": "پرندگان جدید و باکیفیت",
@@ -1495,9 +1225,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/پرندگان جدید و باکیفیت/photo_2026-08-12_10-06-04.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "پرندگان-جدید-و-باکیفیت",
-      "url": "/mods/پرندگان-جدید-و-باکیفیت/"
+      "featured": false
     },
     {
       "name": "پهباد ها های جدید",
@@ -1506,9 +1234,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/پهباد ها های جدید/photo_2026-08-17_08-52-48.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "پهباد-ها-های-جدید",
-      "url": "/mods/پهباد-ها-های-جدید/"
+      "featured": false
     },
     {
       "name": "پورتال سیفت (sift portal)",
@@ -1517,9 +1243,7 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/پورتال سیفت (sift portal)/mcpedl-png.png",
       "tested": true,
-      "featured": true,
-      "slug": "پورتال-سیفت-sift-portal",
-      "url": "/mods/پورتال-سیفت-sift-portal/"
+      "featured": true
     },
     {
       "name": "چراغ های جدید",
@@ -1528,9 +1252,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/چراغ های جدید/photo_2026-07-21_13-43-38.jpg",
       "tested": false,
-      "featured": false,
-      "slug": "چراغ-های-جدید",
-      "url": "/mods/چراغ-های-جدید/"
+      "featured": false
     },
     {
       "name": "کلی تی ان تی قدرتمند",
@@ -1539,9 +1261,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/کلی تی ان تی قدرتمند/photo_2026-08-06_22-42-47.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "کلی-تی-ان-تی-قدرتمند",
-      "url": "/mods/کلی-تی-ان-تی-قدرتمند/"
+      "featured": false
     },
     {
       "name": "کلی در جدید و مخفی",
@@ -1550,9 +1270,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/کلی در جدید و مخفی/photo_2026-07-23_09-05-10.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "کلی-در-جدید-و-مخفی",
-      "url": "/mods/کلی-در-جدید-و-مخفی/"
+      "featured": false
     },
     {
       "name": "کوله پشتی",
@@ -1561,9 +1279,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/کوله پشتی/photo_2026-08-06_22-40-24.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "کوله-پشتی",
-      "url": "/mods/کوله-پشتی/"
+      "featured": false
     },
     {
       "name": "گودزیلا",
@@ -1572,9 +1288,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/گودزیلا/photo_2026-08-17_08-54-27.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "گودزیلا",
-      "url": "/mods/گودزیلا/"
+      "featured": false
     }
   ],
   "shaders": [
@@ -1585,9 +1299,7 @@
       "compatibility": "جاوا",
       "icon": null,
       "tested": false,
-      "featured": false,
-      "slug": "bliss",
-      "url": "/shaders/bliss/"
+      "featured": false
     },
     {
       "name": "Chroma Visuals",
@@ -1596,9 +1308,7 @@
       "compatibility": "سازگار با بدراک(پچ)",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Chroma%20Visuals/photo_2026-08-16_20-50-18.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "chroma-visuals",
-      "url": "/shaders/chroma-visuals/"
+      "featured": false
     },
     {
       "name": "Chroma",
@@ -1607,9 +1317,7 @@
       "compatibility": null,
       "icon": null,
       "tested": true,
-      "featured": false,
-      "slug": "chroma",
-      "url": "/shaders/chroma/"
+      "featured": false
     },
     {
       "name": "Dexten-Shader-MCPE-1.19",
@@ -1618,9 +1326,7 @@
       "compatibility": "سازگار با بدراک (پچ)",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Dexten-Shader-MCPE-1.19/photo_2026-08-16_23-12-43.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "dexten-shader-mcpe-1-19",
-      "url": "/shaders/dexten-shader-mcpe-1-19/"
+      "featured": false
     },
     {
       "name": "EXPANSIVE_NATURE_V1",
@@ -1629,9 +1335,7 @@
       "compatibility": "سازگار با بدراک (پچ)",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/EXPANSIVE_NATURE_V1/photo_2026-08-16_21-17-43.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "expansive_nature_v1",
-      "url": "/shaders/expansive_nature_v1/"
+      "featured": false
     },
     {
       "name": "Forge Medieval Fantasy",
@@ -1640,9 +1344,7 @@
       "compatibility": "سازگار با بدراک (پچ)",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Forge%20Medieval%20Fantasy/photo_2026-08-16_21-19-02.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "forge-medieval-fantasy",
-      "url": "/shaders/forge-medieval-fantasy/"
+      "featured": false
     },
     {
       "name": "Fused's Falling Leaves mt",
@@ -1651,9 +1353,7 @@
       "compatibility": "سازگار با بدراک (پچ)",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Fused's%20Falling%20Leaves%20mt/photo_2026-08-16_23-08-07.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "fused-s-falling-leaves-mt",
-      "url": "/shaders/fused-s-falling-leaves-mt/"
+      "featured": false
     },
     {
       "name": "Kellys_RTX_Base_pack_3.6",
@@ -1662,9 +1362,7 @@
       "compatibility": "سازگار با بدراک(پچ)",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Kellys_RTX_Base_pack_3.6/photo_2026-08-16_22-55-13.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "kellys_rtx_base_pack_3-6",
-      "url": "/shaders/kellys_rtx_base_pack_3-6/"
+      "featured": false
     },
     {
       "name": "Luminous Dreams v1.0",
@@ -1673,9 +1371,7 @@
       "compatibility": "سازگار با بدراک(پچ)",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Luminous%20Dreams%20v1.0/photo_2026-08-16_23-10-14.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "luminous-dreams-v1-0",
-      "url": "/shaders/luminous-dreams-v1-0/"
+      "featured": false
     },
     {
       "name": "Lunac shaders - 3D v1.0",
@@ -1684,9 +1380,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Lunac%20shaders%20-%203D%20v1.0/photo_2026-08-12_16-42-42.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "lunac-shaders---3d-v1-0",
-      "url": "/shaders/lunac-shaders---3d-v1-0/"
+      "featured": false
     },
     {
       "name": "MakeUp",
@@ -1695,9 +1389,7 @@
       "compatibility": "تست شده با 26.2",
       "icon": null,
       "tested": true,
-      "featured": false,
-      "slug": "makeup",
-      "url": "/shaders/makeup/"
+      "featured": false
     },
     {
       "name": "Mystica Shaders v2.7.0",
@@ -1706,9 +1398,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Mystica%20Shaders%20v2.7.0/photo_2026-07-23_08-49-20.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "mystica-shaders-v2-7-0",
-      "url": "/shaders/mystica-shaders-v2-7-0/"
+      "featured": false
     },
     {
       "name": "Nature's_Touch_v2.4.5_Hotfix_2",
@@ -1717,9 +1407,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Nature's_Touch_v2.4.5_Hotfix_2/photo_2026-08-16_21-15-32.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "nature-s_touch_v2-4-5_hotfix_2",
-      "url": "/shaders/nature-s_touch_v2-4-5_hotfix_2/"
+      "featured": false
     },
     {
       "name": "Newb Aero Enhanced-1.0.0-android",
@@ -1728,9 +1416,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Newb%20Aero%20Enhanced-1.0.0-android/photo_2026-08-12_16-56-53.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "newb-aero-enhanced-1-0-0-android",
-      "url": "/shaders/newb-aero-enhanced-1-0-0-android/"
+      "featured": false
     },
     {
       "name": "Newb X Ambient",
@@ -1739,9 +1425,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Newb%20X%20Ambient/photo_2026-08-17_11-25-25.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "newb-x-ambient",
-      "url": "/shaders/newb-x-ambient/"
+      "featured": false
     },
     {
       "name": "Newb X Mashi",
@@ -1750,9 +1434,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Newb%20X%20Mashi/photo_2026-08-17_11-21-21.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "newb-x-mashi",
-      "url": "/shaders/newb-x-mashi/"
+      "featured": false
     },
     {
       "name": "Newb X Stars",
@@ -1761,9 +1443,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Newb%20X%20Stars/photo_2026-08-17_11-16-51.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "newb-x-stars",
-      "url": "/shaders/newb-x-stars/"
+      "featured": false
     },
     {
       "name": "Newb-Lumina-Shader-26x",
@@ -1772,9 +1452,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Newb-Lumina-Shader-26x/photo_2026-08-14_11-08-35.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "newb-lumina-shader-26x",
-      "url": "/shaders/newb-lumina-shader-26x/"
+      "featured": false
     },
     {
       "name": "Newb-X-Memories-Shader-MCPE-Android-1.21",
@@ -1783,9 +1461,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Newb-X-Memories-Shader-MCPE-Android-1.21/photo_2026-08-16_21-13-23.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "newb-x-memories-shader-mcpe-android-1-21",
-      "url": "/shaders/newb-x-memories-shader-mcpe-android-1-21/"
+      "featured": false
     },
     {
       "name": "Newb-X-Singularity-Shader-MCPE-Android-1.21",
@@ -1794,9 +1470,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Newb-X-Singularity-Shader-MCPE-Android-1.21/photo_2026-08-16_20-53-28.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "newb-x-singularity-shader-mcpe-android-1-21",
-      "url": "/shaders/newb-x-singularity-shader-mcpe-android-1-21/"
+      "featured": false
     },
     {
       "name": "Newb-X-Supervanilla-MCPE-1.21",
@@ -1805,9 +1479,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Newb-X-Supervanilla-MCPE-1.21/photo_2026-08-16_20-45-59.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "newb-x-supervanilla-mcpe-1-21",
-      "url": "/shaders/newb-x-supervanilla-mcpe-1-21/"
+      "featured": false
     },
     {
       "name": "Newb_Complementary_Update_",
@@ -1816,9 +1488,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Newb_Complementary_Update_/photo_2026-08-16_20-55-34.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "newb_complementary_update_",
-      "url": "/shaders/newb_complementary_update_/"
+      "featured": false
     },
     {
       "name": "Phantom-Visuals-v1.1.4",
@@ -1827,9 +1497,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Phantom-Visuals-v1.1.4/photo_2026-08-16_22-45-02.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "phantom-visuals-v1-1-4",
-      "url": "/shaders/phantom-visuals-v1-1-4/"
+      "featured": false
     },
     {
       "name": "RTX Shader",
@@ -1838,9 +1506,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/RTX%20Shader/photo_2026-08-16_23-02-12.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "rtx-shader",
-      "url": "/shaders/rtx-shader/"
+      "featured": false
     },
     {
       "name": "Realism VFX Add-On by DLMC",
@@ -1849,9 +1515,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Realism%20VFX%20Add-On%20by%20DLMC/photo_2026-08-06_23-00-48.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "realism-vfx-add-on-by-dlmc",
-      "url": "/shaders/realism-vfx-add-on-by-dlmc/"
+      "featured": false
     },
     {
       "name": "Ultra Cute Texture Pack",
@@ -1860,9 +1524,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Ultra%20Cute%20Texture%20Pack/photo_2026-08-16_23-03-25.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "ultra-cute-texture-pack",
-      "url": "/shaders/ultra-cute-texture-pack/"
+      "featured": false
     },
     {
       "name": "Vibrant BSL Visuals",
@@ -1871,9 +1533,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Vibrant%20BSL%20Visuals/photo_2026-08-14_11-10-10.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "vibrant-bsl-visuals",
-      "url": "/shaders/vibrant-bsl-visuals/"
+      "featured": false
     },
     {
       "name": "Visual Effects Add-On by skupka",
@@ -1882,9 +1542,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Visual%20Effects%20Add-On%20by%20skupka/photo_2026-08-16_22-46-41.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "visual-effects-add-on-by-skupka",
-      "url": "/shaders/visual-effects-add-on-by-skupka/"
+      "featured": false
     },
     {
       "name": "Wild-Expansion-Addon-121x (1)",
@@ -1893,9 +1551,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Wild-Expansion-Addon-121x%20(1)/photo_2026-08-14_09-56-36.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "wild-expansion-addon-121x-1",
-      "url": "/shaders/wild-expansion-addon-121x-1/"
+      "featured": false
     },
     {
       "name": "YSS_RD_1.9.10_Beta1",
@@ -1904,9 +1560,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/YSS_RD_1.9.10_Beta1/photo_2026-08-17_08-35-16.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "yss_rd_1-9-10_beta1",
-      "url": "/shaders/yss_rd_1-9-10_beta1/"
+      "featured": false
     },
     {
       "name": "lum",
@@ -1915,9 +1569,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/lum/photo_2026-08-16_22-59-33.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "lum",
-      "url": "/shaders/lum/"
+      "featured": false
     },
     {
       "name": "newb-x-shadow",
@@ -1926,9 +1578,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/newb-x-shadow/photo_2026-08-16_20-43-36.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "newb-x-shadow",
-      "url": "/shaders/newb-x-shadow/"
+      "featured": false
     },
     {
       "name": "v1.1.4.2 BP",
@@ -1937,9 +1587,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/v1.1.4.2%20BP/photo_2026-08-16_21-08-16.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "v1-1-4-2-bp",
-      "url": "/shaders/v1-1-4-2-bp/"
+      "featured": false
     },
     {
       "name": "اکشن اند استاف 1.11(جدید ترین نسخه )",
@@ -1948,9 +1596,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": null,
       "tested": false,
-      "featured": false,
-      "slug": "اکشن-اند-استاف-1-11-جدید-ترین-نسخه",
-      "url": "/shaders/اکشن-اند-استاف-1-11-جدید-ترین-نسخه/"
+      "featured": false
     },
     {
       "name": "شیدر باکیفیت",
@@ -1959,9 +1605,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/شیدر باکیفیت/photo_2026-08-16_21-11-02.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "شیدر-باکیفیت",
-      "url": "/shaders/شیدر-باکیفیت/"
+      "featured": false
     },
     {
       "name": "شیدر برای بهتر کردن کیفیت ماینکرافت",
@@ -1970,9 +1614,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": null,
       "tested": false,
-      "featured": false,
-      "slug": "شیدر-برای-بهتر-کردن-کیفیت-ماینکرافت",
-      "url": "/shaders/شیدر-برای-بهتر-کردن-کیفیت-ماینکرافت/"
+      "featured": false
     },
     {
       "name": "شیدر جدید",
@@ -1981,9 +1623,7 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/شیدر جدید/photo_2026-08-16_22-53-47.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "شیدر-جدید",
-      "url": "/shaders/شیدر-جدید/"
+      "featured": false
     }
   ],
   "films": [
@@ -1993,9 +1633,7 @@
       "link": "https://aparat.com/v/iscr693",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Film/تست و معرفی مود آزمایشگاه ترکیب ماب/photo_2026-01-31_21-21-08.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "تست-و-معرفی-مود-آزمایشگاه-ترکیب-ماب",
-      "url": "/videos/تست-و-معرفی-مود-آزمایشگاه-ترکیب-ماب/"
+      "featured": false
     },
     {
       "name": "تست و معرفی مود مپ خفن و جذاب وان بلاک",
@@ -2003,9 +1641,7 @@
       "link": "https://aparat.com/v/mdt95c5",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Film/تست و معرفی مود مپ خفن و جذاب وان بلاک/IMG_20260720_152011_850%20(1).jpg",
       "tested": true,
-      "featured": false,
-      "slug": "تست-و-معرفی-مود-مپ-خفن-و-جذاب-وان-بلاک",
-      "url": "/videos/تست-و-معرفی-مود-مپ-خفن-و-جذاب-وان-بلاک/"
+      "featured": false
     },
     {
       "name": "معرفی و تست مود پارکور 1000 ماموریت",
@@ -2013,9 +1649,7 @@
       "link": "https://www.aparat.com/v/erq1o0t",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Film/معرفی و تست مود پارکور 1000 ماموریت/photo_2026-07-23_09-15-54.jpg",
       "tested": true,
-      "featured": true,
-      "slug": "معرفی-و-تست-مود-پارکور-1000-ماموریت",
-      "url": "/videos/معرفی-و-تست-مود-پارکور-1000-ماموریت/"
+      "featured": true
     },
     {
       "name": "مپ خفن و جذاب وان بلاک در اقیانوس",
@@ -2023,9 +1657,7 @@
       "link": "https://www.aparat.com/v/tuyy5nu",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Film/مپ خفن و جذاب وان بلاک در اقیانوس/Screenshot%20(408).png",
       "tested": true,
-      "featured": false,
-      "slug": "مپ-خفن-و-جذاب-وان-بلاک-در-اقیانوس",
-      "url": "/videos/مپ-خفن-و-جذاب-وان-بلاک-در-اقیانوس/"
+      "featured": false
     },
     {
       "name": "مپ خفن و جذاب پارکور ماری",
@@ -2033,9 +1665,7 @@
       "link": "https://aparat.com/v/dyahp7e",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Film/مپ خفن و جذاب پارکور ماری/IMG_20260709_225520_068.jpg",
       "tested": true,
-      "featured": false,
-      "slug": "مپ-خفن-و-جذاب-پارکور-ماری",
-      "url": "/videos/مپ-خفن-و-جذاب-پارکور-ماری/"
+      "featured": false
     }
   ],
   "contacts": [
