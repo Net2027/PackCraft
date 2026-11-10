@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T11:02:23Z",
+  "updatedAt": "2026-11-10T11:12:42Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -785,6 +785,15 @@
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/قطار های جدید/photo_2026-08-13_05-49-51.jpg",
       "tested": true,
       "featured": false
+    },
+    {
+      "name": "لاکی بلاک در دنیای سنگی",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/لاکی بلاک در دنیای سنگی/File/OneBlock-in-a-StoneWorld-Wilderness%5Bpackcraft.ir%5D.mcworld",
+      "description": "۱.۲۶.۵۲ به بالا",
+      "compatibility": "بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/لاکی بلاک در دنیای سنگی/IMG_20261110_144128_409.jpg",
+      "tested": true,
+      "featured": true
     },
     {
       "name": "لاکی بلاک",
