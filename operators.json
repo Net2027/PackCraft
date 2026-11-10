@@ -1,13 +1,5 @@
 [
   {
-    "id": "e5d4b77e2e9446d988985a08712fca83",
-    "username": "H",
-    "name": "ابولفضل",
-    "password_hash": "scrypt:32768:8:1$P5nfPQQoaMGZNVtw$95a4489504676447da4079898f46e638c1def029a3abf8834893b036a3e957347ae40436df087d8717fb0c26e6c4d4dd62fedfd768e59759db93520a96a69d25",
-    "active": true,
-    "created_at": "2026-09-07T16:03:07Z"
-  },
-  {
     "id": "0093be3fe406425297ce49668165bd2f",
     "username": "sadra",
     "name": "صدرا",
