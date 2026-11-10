@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T18:17:42Z",
+  "updatedAt": "2026-11-10T18:19:09Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -947,15 +947,6 @@
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/مود ترسناک و جدید امروزی hors.jar/Screenshot%20(401).png",
       "tested": true,
       "featured": false
-    },
-    {
-      "name": "مود تستی!",
-      "file": null,
-      "description": null,
-      "compatibility": null,
-      "icon": null,
-      "tested": false,
-      "featured": true
     },
     {
       "name": "مود خفن و جذاب پارکور ماری",
