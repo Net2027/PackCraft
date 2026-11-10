@@ -23,7 +23,8 @@ const MIME_TYPES = {
 const PUBLIC_FILES = new Set([
     'index.html', '404.html', 'admin.html', 'operator.html',
     'packs-data.json', 'sitemap.xml', 'robots.txt', 'llms.txt',
-    'logo.png', 'main.png', 'world.png', 'style.css', 'site-client.js',
+    'logo.png', 'main.png', 'world.png', 'style.css', 'site-client.js', 'poll.js',
+    'poll-results.json',
     'CNAME', '.nojekyll', 'googleb7ecb7d7a588b1da.html'
 ]);
 const PAGE_DIRECTORIES = new Set(['mods', 'resource-packs', 'shaders', 'videos']);

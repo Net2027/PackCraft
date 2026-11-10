@@ -290,6 +290,42 @@
             <!-- featured-mods:start -->
             <!-- featured-mods:end -->
 
+            <section class="pc-poll" id="poll-box" hidden aria-labelledby="poll-title">
+                <div class="pc-poll-card">
+                    <div class="pc-poll-head">
+                        <span class="pc-poll-tag">نظرسنجی</span>
+                        <h2 class="pc-poll-title" id="poll-title">تو کدام نسخهٔ ماینکرافت را بازی می‌کنی؟</h2>
+                        <p class="pc-poll-sub">رأی‌تان به ما کمک می‌کند بفهمیم چه مودی برای سایت بسازیم — نتیجه‌ها همین‌جا زنده به‌روز می‌شوند.</p>
+                    </div>
+                    <div class="pc-poll-actions" id="poll-actions">
+                        <button class="pc-poll-choice" type="button" data-choice="bedrock">
+                            <i class="ph ph-device-mobile" aria-hidden="true"></i>
+                            <span class="pc-poll-choice-name">بدراک</span>
+                            <span class="pc-poll-choice-hint">موبایل و کنسول</span>
+                        </button>
+                        <button class="pc-poll-choice" type="button" data-choice="java">
+                            <i class="ph ph-desktop-tower" aria-hidden="true"></i>
+                            <span class="pc-poll-choice-name">جاوا</span>
+                            <span class="pc-poll-choice-hint">کامپیوتر</span>
+                        </button>
+                    </div>
+                    <div class="pc-poll-results" id="poll-results" hidden>
+                        <div class="pc-poll-bar" data-poll-bar="bedrock">
+                            <div class="pc-poll-bar-head"><span>بدراک</span><b data-poll-count="bedrock">۰</b></div>
+                            <div class="pc-poll-track"><div class="pc-poll-fill" data-poll-fill="bedrock"></div></div>
+                        </div>
+                        <div class="pc-poll-bar" data-poll-bar="java">
+                            <div class="pc-poll-bar-head"><span>جاوا</span><b data-poll-count="java">۰</b></div>
+                            <div class="pc-poll-track"><div class="pc-poll-fill" data-poll-fill="java"></div></div>
+                        </div>
+                        <p class="pc-poll-total" id="poll-total">مجموع رأی‌ها: ۰</p>
+                        <p class="pc-poll-thanks" id="poll-thanks" hidden>رأی‌تان ثبت شد ✅ از مشارکت‌تان ممنونیم!</p>
+                        <p class="pc-poll-error" id="poll-error" hidden>ثبت رأی موفق نشد؛ چند لحظه بعد دوباره امتحان کنید.</p>
+                    </div>
+                    <button class="pc-poll-view" type="button" id="poll-view">مشاهدهٔ نتایج بدون رأی دادن</button>
+                </div>
+            </section>
+
             <div class="home-guide-banner">
                 <i class="ph ph-game-controller" aria-hidden="true"></i>
                 <div>
@@ -1317,6 +1353,7 @@
         <span>پشتیبانی</span>
     </a>
 
+    <script type="module" src="/poll.js"></script>
     <script src="/site-client.js" defer></script>
 </body>
 </html>
