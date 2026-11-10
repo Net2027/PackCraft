@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T14:31:56Z",
+  "updatedAt": "2026-11-10T14:35:40Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -787,15 +787,6 @@
       "featured": false
     },
     {
-      "name": "لاکی بلاک در دنیای سنگی",
-      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/لاکی بلاک در دنیای سنگی/File/OneBlock-in-a-StoneWorld-Wilderness%5Bpackcraft.ir%5D.mcworld",
-      "description": "۱.۲۶.۵۲ به بالا",
-      "compatibility": "بدراک",
-      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/لاکی بلاک در دنیای سنگی/IMG_20261110_144128_409.jpg",
-      "tested": true,
-      "featured": true
-    },
-    {
       "name": "لاکی بلاک",
       "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/لاکی بلاک/File/lucky-block-forge-1.8.9-2.0.jar",
       "description": "سازگار با نسخه 1.8.9 به بالا",
@@ -1136,6 +1127,15 @@
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/واقعی شدن ضربه زدن/photo_2026-08-13_05-50-52.jpg",
       "tested": true,
       "featured": false
+    },
+    {
+      "name": "وان بلاک در دنیای سنگی",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/وان بلاک در دنیای سنگی/File/OneBlock-in-a-StoneWorld-Wilderness%5Bpackcraft.ir%5D.mcworld",
+      "description": "۱.۲۶.۵۲ به بالا",
+      "compatibility": "بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/وان بلاک در دنیای سنگی/IMG_20261110_144128_409.jpg",
+      "tested": true,
+      "featured": true
     },
     {
       "name": "وان بلاک هاردکور",
