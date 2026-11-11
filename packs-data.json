@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T10:21:53Z",
+  "updatedAt": "2026-11-11T10:51:52Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -1136,6 +1136,15 @@
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/وان بلاک هاردکور/IMG_20260720_152011_850.jpg",
       "tested": false,
       "featured": false
+    },
+    {
+      "name": "وان بلاک چند نفره",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/وان بلاک چند نفره/File/Multiplayer%20One%5Bpackcraft.ir%5D.mcworld",
+      "description": "بدراک ۱.۲۶.۳۰ به بالا",
+      "compatibility": "سازگار بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/وان بلاک چند نفره/picsart_25-09-03_15-42-53-227-jpg.jpg",
+      "tested": true,
+      "featured": true
     },
     {
       "name": "وریتی (ورژن اصلی)",
