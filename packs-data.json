@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T11:31:48Z",
+  "updatedAt": "2026-11-11T12:04:36Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -301,11 +301,11 @@
       "featured": true
     },
     {
-      "name": "+++RPG",
-      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/+++RPG/File/RPG++ V0.9.2 for 1.26.52[packcraft.ir].mcaddon",
+      "name": "++RPG",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/++RPG/File/RPG++ V0.9.2 for 1.26.52[packcraft.ir].mcaddon",
       "description": "بدراک ۱.۲۶.۵۲ به بالا",
       "compatibility": "سازگار بدراک",
-      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/+++RPG/dd12d-d14d34do-ndondd12d-2025-07-22-135422-png.png",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/++RPG/dd12d-d14d34do-ndondd12d-2025-07-22-135422-png.png",
       "tested": true,
       "featured": false
     },
@@ -1334,15 +1334,6 @@
       "description": "نسخه 1.12به بالا\r\n(بچ شده)",
       "compatibility": "سازگار با بدراک(پچ)",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Shader/Chroma%20Visuals/photo_2026-08-16_20-50-18.jpg",
-      "tested": true,
-      "featured": false
-    },
-    {
-      "name": "Chroma",
-      "file": null,
-      "description": null,
-      "compatibility": null,
-      "icon": null,
       "tested": true,
       "featured": false
     },
