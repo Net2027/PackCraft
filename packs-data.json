@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T11:10:26Z",
+  "updatedAt": "2026-11-11T11:31:48Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -299,6 +299,15 @@
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/(مود انمیشن ماینکرافت) Smooth moves/IMG_20261012_201307_829.jpg",
       "tested": true,
       "featured": true
+    },
+    {
+      "name": "+++RPG",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/+++RPG/File/RPG++ V0.9.2 for 1.26.52[packcraft.ir].mcaddon",
+      "description": "بدراک ۱.۲۶.۵۲ به بالا",
+      "compatibility": "سازگار بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/+++RPG/dd12d-d14d34do-ndondd12d-2025-07-22-135422-png.png",
+      "tested": true,
+      "featured": false
     },
     {
       "name": "1000ماموریت",
