@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T11:03:17Z",
+  "updatedAt": "2026-11-16T11:16:06Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -1690,6 +1690,14 @@
       "description": "تست و معرفی مود پارکور ماری",
       "link": "https://aparat.com/v/dyahp7e",
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Film/مپ خفن و جذاب پارکور ماری/IMG_20260709_225520_068.jpg",
+      "tested": true,
+      "featured": false
+    },
+    {
+      "name": "وان بلاک در دنیای سنگی!!!!!!!!",
+      "description": "تست و معرفی مود وان بلاک در دنیای سنگی",
+      "link": "https://aparat.com/v/osk6620",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Film/وان بلاک در دنیای سنگی!!!!!!!!/IMG_20261116_144544_532.jpg",
       "tested": true,
       "featured": false
     }
