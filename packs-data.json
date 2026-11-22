@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T06:45:27Z",
+  "updatedAt": "2026-11-22T06:47:37Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -463,11 +463,11 @@
       "featured": false
     },
     {
-      "name": "انواع ماب های ترسناک جهش یافته برای",
-      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/انواع ماب های ترسناک جهش یافته برای/File/Mutant%20Mobs%20Add-On.mcaddon",
+      "name": "انواع ماب های ترسناک جهش یافته",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/انواع ماب های ترسناک جهش یافته/File/Mutant%20Mobs%20Add-On.mcaddon",
       "description": "بدراک 1.20 به بالا",
       "compatibility": "سازگار بدراک",
-      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/انواع ماب های ترسناک جهش یافته برای/IMG_20260720_153555_209.jpg",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/انواع ماب های ترسناک جهش یافته/IMG_20260720_153555_209.jpg",
       "tested": true,
       "featured": false
     },
