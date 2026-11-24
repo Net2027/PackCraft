@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T16:07:14Z",
+  "updatedAt": "2026-11-24T16:25:53Z",
   "packs": [
     {
       "name": "!          §2§l§oToxin §f§l§o16x",
@@ -713,6 +713,15 @@
       "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/ردیاب آور ها/photo_2026-07-23_15-16-27.jpg",
       "tested": true,
       "featured": false
+    },
+    {
+      "name": "رندوم لوت بلاک ( Random Loot - Block)",
+      "file": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/رندوم لوت بلاک ( Random Loot - Block)/File/Random%20Loot%20-%20Blocks%5Bpackcraft.ir%5D.mcpack",
+      "description": "بدراک ۱.۲۶۰.۵۲",
+      "compatibility": "سازگار بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/PackCraft/main/Mod/رندوم لوت بلاک ( Random Loot - Block)/Gemini_Generated_Image_v9oczov9oczov9oc.jpeg",
+      "tested": true,
+      "featured": true
     },
     {
       "name": "ساخت اتاق گیمینگ و وسایل گیمینگ",
